@@ -10,15 +10,32 @@
         <li>О нас</li>
         <li>Отзывы</li>
       </ul>
-      <div class="myButton">Заказать услугу</div>
+      <div class="myButton" @click="showOrder">Заказать услугу</div>
     </div>
+
+    <app-order @closeModal="closeModal" :active="active"></app-order>
   </div>
 </template>
 
 <script>
+import order from '@/components/modals/order';
+
 export default {
+  components: {
+    'app-order': order,
+  },
   data() {
-    return {};
+    return {
+      active: false,
+    };
+  },
+  methods: {
+    showOrder() {
+      this.active = true;
+    },
+    closeModal() {
+      this.active = false;
+    },
   },
 };
 </script>
