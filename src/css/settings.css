@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'CharterC';
+  src: url('/static/fonts/CharterC.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CharterC-Bold';
+  src: url('/static/fonts/CharterC-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CharterC-BoldItalic';
+  src: url('/static/fonts/CharterC-BoldItalic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CharterC-Italic';
+  src: url('/static/fonts/CharterC-Italic.woff2') format('woff2');
+}
