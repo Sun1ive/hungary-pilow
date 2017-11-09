@@ -13,7 +13,7 @@
       <div class="myButton" @click="showOrder">Заказать услугу</div>
     </div>
 
-    <app-order @closeModal="closeModal" :active="active"></app-order>
+    <app-order @closeOrder="closeOrder" :active="active"></app-order>
   </div>
 </template>
 
@@ -33,7 +33,7 @@ export default {
     showOrder() {
       this.active = true;
     },
-    closeModal() {
+    closeOrder() {
       this.active = false;
     },
   },
