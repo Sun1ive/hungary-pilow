@@ -14,3 +14,7 @@
   font-family: 'CharterC-Italic';
   src: url('/static/fonts/CharterC-Italic.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/static/fonts/Helvetica.woff2') format('woff2');
+}

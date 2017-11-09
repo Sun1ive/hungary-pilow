@@ -26,6 +26,7 @@ export default {
 <style scoped>
 .toolbar {
   background-color: #fff;
+  border: 1px solid #333;
 }
 .wrapper {
   display: flex;
@@ -43,5 +44,11 @@ export default {
   justify-content: space-around;
   color: var(--mainBlue);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.fixed {
+  position: fixed;
+  top: 30px;
+  width: 100%;
 }
 </style>

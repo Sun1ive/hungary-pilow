@@ -1,15 +1,18 @@
 <template>
   <div id="app">
    <app-toolbar></app-toolbar>
+   <app-header></app-header>
   </div>
 </template>
 
 <script>
 import toolbar from '@/components/toolbar';
+import header from '@/components/header';
 
 export default {
   components: {
     'app-toolbar': toolbar,
+    'app-header': header,
   },
 };
 </script>
