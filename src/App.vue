@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-   
+   <app-toolbar></app-toolbar>
   </div>
 </template>
 
 <script>
+import toolbar from '@/components/toolbar';
 
 export default {
   components: {
+    'app-toolbar': toolbar,
   },
 };
 </script>

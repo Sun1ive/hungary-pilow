@@ -1,8 +1,8 @@
 import Vue from 'vue';
-
 import 'bulma/css/bulma.css';
-import './css/settings.css';
 import App from './App';
+
+import './css/main.css';
 
 Vue.config.productionTip = false;
 
