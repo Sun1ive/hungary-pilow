@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <div class="toolbar">
+  <div class="toolbar">
+    <div class="wrapper">
       <img src="../assets/logo.png" alt="logo">
       <ul class="menu">
         <li><a href="mailto:example@example.com">example@example.com</a></li>
@@ -25,14 +25,23 @@ export default {
 
 <style scoped>
 .toolbar {
+  background-color: #fff;
+}
+.wrapper {
   display: flex;
   height: 60px;
   align-items: center;
-  justify-content: space-around;
+  & img {
+    height: 47px;
+    width: 90px;
+  }
 }
 .menu {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  color: var(--mainBlue);
+  font-family: Arial, Helvetica, sans-serif;
 }
 </style>
