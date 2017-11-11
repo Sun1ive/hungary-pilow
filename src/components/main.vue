@@ -5,6 +5,7 @@
     <app-heal></app-heal>
     <app-reviews></app-reviews>
     <app-form></app-form>
+    <app-video></app-video>
   </main>
 </template>
 
@@ -17,6 +18,7 @@ import howitswork from './howitswork';
 import heal from './heal';
 import reviews from './reviews';
 import form from './form';
+import video from './video';
 
 export default {
   components: {
@@ -25,6 +27,7 @@ export default {
     'app-heal': heal,
     'app-reviews': reviews,
     'app-form': form,
+    'app-video': video,
   },
 };
 </script>

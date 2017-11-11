@@ -10,14 +10,14 @@
       <div class="field">
         <label class="label">Имя</label>
         <div class="control">
-          <input class="input" type="text" placeholder="name">
+          <input v-model="userData.name" class="input" type="text" placeholder="name">
         </div>
       </div>
     
       <div class="field">
         <label class="label">Телефон</label>
         <div class="control">
-          <input class="input" type="text" placeholder="phone">
+          <input v-model="userData.phone" class="input" type="text" placeholder="phone">
         </div>
       </div>
 

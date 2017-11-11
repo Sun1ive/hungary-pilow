@@ -3,6 +3,7 @@
    <app-toolbar></app-toolbar>
    <app-header></app-header>
    <app-main></app-main>
+   <app-footer></app-footer>
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import toolbar from '@/components/toolbar';
 import header from '@/components/header';
 import main from '@/components/main';
+import footer from '@/components/footer';
 
 export default {
   components: {
     'app-toolbar': toolbar,
     'app-header': header,
     'app-main': main,
+    'app-footer': footer,
   },
 };
 </script>
