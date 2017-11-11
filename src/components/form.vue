@@ -42,18 +42,18 @@ export default {
   methods: {
     submit() {
       const modal = document.querySelector('.modal');
-      // Email.send(
-      //   `coats@indresser.com`,
-      //   // 'info@indresser.com',
-      //   'sunliveua@gmail.com',
-      //   'Заказ с сайта hungary-pilow',
-      //   `Пользователь: ${this.userData.name},
-      //   Город: ${this.userData.city},,
-      //   Телефон: ${this.userData.phone}`,
-      //   'mail.adm.tools',
-      //   'coats@indresser.com',
-      //   '3DLao3x1AC8t',
-      // );
+      Email.send(
+        `coats@indresser.com`,
+        // 'info@indresser.com',
+        'sunliveua@gmail.com',
+        'Заказ с сайта hungary-pilow',
+        `Пользователь: ${this.userData.name},
+        Город: ${this.userData.city},
+        Телефон: ${this.userData.phone}`,
+        'mail.adm.tools',
+        'coats@indresser.com',
+        '3DLao3x1AC8t',
+      );
       if (modal.classList.contains('is-active')) {
         this.$emit('closeOrder');
       }

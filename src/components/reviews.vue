@@ -6,7 +6,7 @@
     </div>
     <slider 
     animation="normal"
-    width="900px">
+    :width="width">
       <slider-item v-for="(item, i) in items" :key="i">
         <div>{{ item }}</div>
       </slider-item>
@@ -28,6 +28,7 @@ export default {
     return {
       items: ['hello world', 'hello there', 'thanks'],
       active: false,
+      width: '',
     };
   },
   components: {
@@ -42,6 +43,9 @@ export default {
     closeOrder() {
       this.active = false;
     },
+  },
+  mounted() {
+    this.width = window.innerWidth.toString();
   },
 };
 </script>

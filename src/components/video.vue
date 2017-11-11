@@ -2,7 +2,7 @@
   <div class="video">
     <div class="wrapper">
       <h3>Nézze meg a következő tájekoztató videót szolgáltatásunkról</h3>
-      <iframe width="620" height="345" src="https://www.youtube-nocookie.com/embed/bag-O-KrswA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      <!-- <iframe width="620" height="345" src="https://www.youtube-nocookie.com/embed/bag-O-KrswA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
       <div class="myButton" @click="showOrder">Rendeljen most</div>
     </div>
 
