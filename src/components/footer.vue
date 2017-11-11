@@ -5,13 +5,19 @@
         <li><a href="#"><img src="../assets/facebook.svg" alt="facebook"></a></li>
         <li><a href="#"><img src="../assets/instagram.svg" alt="isntagram"></a></li>
       </ul>
-      <div class="up"></div>
+      <div class="up" @click="scrollTop"></div>
     </div>
   </footer>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollTop() {
+      window.scrollTo(0, 0);
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -30,7 +36,7 @@ export default {};
       & img {
         width: 30px;
       }
-      margin: 0 .5rem
+      margin: 0 0.5rem;
     }
   }
   & .up {

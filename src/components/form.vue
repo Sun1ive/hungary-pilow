@@ -1,37 +1,31 @@
 <template>
-  <div class="formContainer">
-    <form class="form" @submit.prevent="submit">
-      <h2>Töltse ki adatait</h2>
-      <div class="wrap">
-        <img src="../assets/clock.svg" alt="clock">
-        <span>19 másodpercig tart</span>
+  <form class="form" @submit.prevent="submit">
+    <h2>Töltse ki adatait</h2>
+    <div class="wrap">
+      <img src="../assets/clock.svg" alt="clock">
+      <span>19 másodpercig tart</span>
+    </div>
+    <div class="field">
+      <label class="label">Név</label>
+      <div class="control">
+        <input v-model.lazy="userData.name" class="input" type="text" placeholder="Név">
       </div>
-
-      <div class="field">
-        <label class="label">Név</label>
-        <div class="control">
-          <input v-model.lazy="userData.name" class="input" type="text" placeholder="Név">
-        </div>
+    </div>
+    <div class="field">
+      <label class="label">Telefonszám</label>
+      <div class="control">
+        <input v-model.lazy="userData.phone" class="input" type="text" placeholder="Telefonszám">
       </div>
-    
-      <div class="field">
-        <label class="label">Telefonszám</label>
-        <div class="control">
-          <input v-model.lazy="userData.phone" class="input" type="text" placeholder="Telefonszám">
-        </div>
+    </div>
+    <div class="field">
+      <label class="label">Helység</label>
+      <div class="control">
+        <input v-model.lazy="userData.city" class="input" type="text" placeholder="Helység">
       </div>
-
-      <div class="field">
-        <label class="label">Helység</label>
-        <div class="control">
-          <input v-model.lazy="userData.city" class="input" type="text" placeholder="Helység">
-        </div>
-      </div>
-
-      <p>Menedszerünk már tárcsázza <br> az Ön telefonszámát</p>
-      <button class="myButton" type="submit">Küldés</button>
-    </form>
-  </div>
+    </div>
+    <p>Menedszerünk már tárcsázza <br> az Ön telefonszámát</p>
+    <button class="myButton" type="submit">Küldés</button>
+  </form>
 </template>
 
 <script>
@@ -59,14 +53,6 @@ export default {
 </script>
 
 <style scoped>
-.formContainer {
-  min-height: 600px;
-  background-image: radial-gradient(circle at 31% 18%, #2894e6, #157bc8);
-  background-color: var(--mainBlue);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .form {
   width: 430px;
   height: 530px;
@@ -77,6 +63,7 @@ export default {
   flex-direction: column;
   align-items: center;
   position: relative;
+  font-family: Arial, Helvetica, sans-serif;
   & p {
     text-align: center;
     margin: 1rem 0;

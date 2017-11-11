@@ -2,14 +2,20 @@
   <div :class="{ 'is-active': active }" class="modal">
     <div class="modal-background"></div>
     <div class="modal-content">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aliquam sit illum eligendi dolorum labore quo illo fuga! Rerum accusantium iure aspernatur ab tempora perspiciatis id a minus iusto doloribus.
+      <app-form></app-form>
+    <div class="close" @click="closeOrder"></div>
     </div>
-    <button class="modal-close is-large" aria-label="close" @click="closeOrder"></button>
+    <!-- <button class="modal-close is-large" aria-label="close" @click="closeOrder"></button> -->
   </div>
 </template>
 
 <script>
+import form from '../form';
+
 export default {
+  components: {
+    'app-form': form,
+  },
   props: {
     active: Boolean,
   },
@@ -23,6 +29,13 @@ export default {
 
 <style scoped>
 .modal-content {
-  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  max-width: 440px;
+}
+.close {
+  top: 4%;
+  right: 5%;
 }
 </style>

@@ -19,7 +19,7 @@ export default {};
 
 <style scoped>
 header {
-  background-image: url('../assets/1.jpg');
+  background-image: url('../assets/11.jpg');
 }
 .header {
   display: flex;
@@ -28,7 +28,7 @@ header {
   min-height: 700px;
   position: relative;
   & .flex {
-    width: 65%;
+    width: 64%;
     margin-right: auto;
     & .pilow {
       position: absolute;
@@ -51,9 +51,9 @@ header {
     color: var(--mainBlue);
     font-family: 'Helvetica', Arial, sans-serif;
     letter-spacing: 0.3px;
-    font-size: responsive 1rem 1.1rem;
+    font-size: 1rem;
     width: 65%;
-    margin: 2rem 0 2rem 3rem;
+    margin: 2rem 0 2rem 1rem;
   }
   & .myButton {
     margin-left: 3rem;

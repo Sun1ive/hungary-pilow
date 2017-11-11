@@ -15,13 +15,10 @@ teljesen új, minőségi huzatra cserélődik ki.
   </div>
 </template>
 
-<script>
-export default {};
-</script>
-
 <style scoped>
 .why {
   min-height: 480px;
+  background-image: url('../assets/3.jpg');
   background-color: var(--blue);
   position: relative;
   display: flex;
