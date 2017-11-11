@@ -5,6 +5,10 @@
   --para: #1e1e1e;
 }
 
+h2 {
+  line-height: 1;
+}
+
 /* custom styles */
 
 .myButton {
@@ -27,6 +31,16 @@
   background-color: #333;
 }
 
+.arrow {
+  width: 25px;
+  height: 35px;
+  position: absolute;
+  cursor: pointer;
+  background-image: url('../assets/arrow.svg');
+  background-repeat: no-repeat;
+  animation: arrow 1.5s linear infinite alternate;
+}
+
 .wrapper {
   max-width: 1000px;
   width: 100%;
@@ -36,4 +50,15 @@
 
 ul {
   padding-left: 0;
+}
+
+
+@keyframes arrow {
+  from {
+    opacity: .2;
+    transform: translate(-50%,-60%)
+  } to {
+    opacity: 1;
+    transform: translate(-50%,-50%)
+  }
 }
