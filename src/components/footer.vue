@@ -2,8 +2,8 @@
   <footer>
     <div class="footer">
       <ul class="socials">
-        <li><a href="#">hello</a></li>
-        <li><a href="#">hello</a></li>
+        <li><a href="#"><img src="../assets/facebook.svg" alt="facebook"></a></li>
+        <li><a href="#"><img src="../assets/instagram.svg" alt="isntagram"></a></li>
       </ul>
       <div class="up"></div>
     </div>
@@ -26,6 +26,12 @@ export default {};
   & .socials {
     display: flex;
     margin-left: 1rem;
+    & li {
+      & img {
+        width: 30px;
+      }
+      margin: 0 .5rem
+    }
   }
   & .up {
     background-image: url('../assets/up.svg');
@@ -35,5 +41,10 @@ export default {};
     cursor: pointer;
     margin-right: 1rem;
   }
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
 }
 </style>

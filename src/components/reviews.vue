@@ -1,8 +1,8 @@
 <template>
   <div class="reviews">
     <div class="wrapper">
-      <h2>Отзывы</h2>
-      <p>Спасибо за отзывы, вы нас очень мотивируете на дальнейшую работу</p>
+      <h2>Vélemények</h2>
+      <p>Köszönjük javaslatáért, jó munkavégzésre ösztönöznek bennünket!</p>
     </div>
     <slider 
     animation="normal"

@@ -1,8 +1,8 @@
 <template>
   <div class="video">
-    <h2>Посмотрите интересное видео о нашей работе</h2>
+    <h2>Nézze meg a következő tájekoztató videót szolgáltatásunkról</h2>
     <!-- <iframe width="620" height="345" src="https://www.youtube-nocookie.com/embed/bag-O-KrswA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
-    <div class="myButton">Заказать услугу</div>
+    <div class="myButton">Rendeljen most</div>
   </div>
 </template>
 

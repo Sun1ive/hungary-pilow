@@ -19,7 +19,7 @@ export default {};
 
 <style scoped>
 header {
-  background-color: #c0c0c0;
+  background-image: url('../assets/1.jpg');
 }
 .header {
   display: flex;

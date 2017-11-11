@@ -1,35 +1,35 @@
 <template>
   <div class="formContainer">
     <form class="form" @submit.prevent="submit">
-      <h2>Оставьте свои данные</h2>
+      <h2>Töltse ki adatait</h2>
       <div class="wrap">
         <img src="../assets/clock.svg" alt="clock">
-        <span>Затратите 19 секунд</span>
+        <span>19 másodpercig tart</span>
       </div>
 
       <div class="field">
-        <label class="label">Имя</label>
+        <label class="label">Név</label>
         <div class="control">
-          <input v-model.lazy="userData.name" class="input" type="text" placeholder="name">
+          <input v-model.lazy="userData.name" class="input" type="text" placeholder="Név">
         </div>
       </div>
     
       <div class="field">
-        <label class="label">Телефон</label>
+        <label class="label">Telefonszám</label>
         <div class="control">
-          <input v-model.lazy="userData.phone" class="input" type="text" placeholder="phone">
+          <input v-model.lazy="userData.phone" class="input" type="text" placeholder="Telefonszám">
         </div>
       </div>
 
       <div class="field">
-        <label class="label">Город</label>
+        <label class="label">Helység</label>
         <div class="control">
-          <input v-model.lazy="userData.city" class="input" type="text" placeholder="phone">
+          <input v-model.lazy="userData.city" class="input" type="text" placeholder="Helység">
         </div>
       </div>
 
-      <p>Наш менеджер уже набирает <br> ваш номер</p>
-      <button class="myButton" type="submit">Отправить</button>
+      <p>Menedszerünk már tárcsázza <br> az Ön telefonszámát</p>
+      <button class="myButton" type="submit">Küldés</button>
     </form>
   </div>
 </template>
