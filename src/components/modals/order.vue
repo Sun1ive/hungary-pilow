@@ -2,7 +2,7 @@
   <div ref="modal" :class="{ 'is-active': active }" class="modal">
     <div class="modal-background"></div>
     <div class="modal-content">
-      <app-form></app-form>
+      <app-form @closeOrder="closeOrder"></app-form>
     <div class="close" @click="closeOrder"></div>
     </div>
   </div>
