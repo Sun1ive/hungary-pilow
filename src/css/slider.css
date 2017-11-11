@@ -1,0 +1,8 @@
+.btn-left,
+.btn-right {
+  background: transparent !important;
+}
+
+.slider {
+  margin: 0 auto !important;
+}
