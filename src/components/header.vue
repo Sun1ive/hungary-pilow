@@ -6,6 +6,7 @@
           <h1>Ваша подушка в опасности!</h1>
           <p>Подушки после долгого использования хранят в себе пыль, являются средой обитания многих микрооганизмов и приносят вред вашему здоровью.Хотите хорошо высыпаться, заботитесь о своем здоровье и любите близких? Закажите очистку подушки.</p>
           <div class="myButton">Заказать услугу</div>
+          <img class="pilow" src="../assets/p1.png" alt="pilow">
         </div>
       </div>
     </div>
@@ -18,16 +19,24 @@ export default {};
 
 <style scoped>
 header {
-  background-color: #f6f6f6;
+  background-color: #c0c0c0;
 }
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 700px;
+  position: relative;
   & .flex {
     width: 65%;
     margin-right: auto;
+    & .pilow {
+      position: absolute;
+      top: 10%;
+      right: -10%;
+      width: 600px;
+      height: 430px;
+    }
   }
   & h1 {
     font-size: responsive 2rem 4rem;
@@ -44,7 +53,7 @@ header {
     letter-spacing: 0.3px;
     font-size: responsive 1rem 1.1rem;
     width: 65%;
-    margin: 1rem 0 2rem 3rem;
+    margin: 2rem 0 2rem 3rem;
   }
   & .myButton {
     margin-left: 3rem;

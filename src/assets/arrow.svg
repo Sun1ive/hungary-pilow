@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="32px" viewBox="0 0 23 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Podushka" transform="translate(-629.000000, -3193.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Group-22" transform="translate(0.000000, 2731.000000)">
+                <g id="up-arrow" transform="translate(641.000000, 823.500000) scale(1, -1) translate(-641.000000, -823.500000) translate(629.000000, 462.000000)">
+                    <path d="M22.477,701.274 C22.921,701.718 22.921,702.417 22.477,702.861 C22.048,703.29 21.334,703.29 20.906,702.861 L12.859,694.814 L12.859,721.369 C12.859,721.988 12.367,722.48 11.748,722.48 C11.129,722.48 10.621,721.988 10.621,721.369 L10.621,694.813 L2.59,702.86 C2.146,703.289 1.431,703.289 1.003,702.86 C0.559,702.416 0.559,701.717 1.003,701.273 L10.955,691.321 C11.384,690.892 12.098,690.892 12.526,691.321 L22.477,701.274 Z" id="Shape-Copy-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
