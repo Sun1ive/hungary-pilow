@@ -13,22 +13,35 @@
     </slider>
 
     <div class="arrow"></div>
-    <div class="myButton">Rendeljen most</div>
+    <div class="myButton" @click="showOrder">Rendeljen most</div>
+
+    <app-order @closeOrder="closeOrder" :active="active"></app-order>
   </div>
 </template>
 
 <script>
 import { Slider, SliderItem } from 'vue-easy-slider';
+import order from './modals/order';
 
 export default {
   data() {
     return {
       items: ['hello world', 'hello there', 'thanks'],
+      active: false,
     };
   },
   components: {
     Slider,
     SliderItem,
+    'app-order': order,
+  },
+  methods: {
+    showOrder() {
+      this.active = true;
+    },
+    closeOrder() {
+      this.active = false;
+    },
   },
 };
 </script>

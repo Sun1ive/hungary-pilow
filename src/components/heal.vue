@@ -11,14 +11,34 @@
     <img class="rightPilow" src="../assets/p5.png" alt="pillow">
     <img class="leftPilow" src="../assets/p6.png" alt="pillow">
 
-
     <div class="arrow"></div>
-    <div class="myButton">Rendeljen most</div>
+    <div class="myButton" @click="showOrder">Rendeljen most</div>
+
+    <app-order @closeOrder="closeOrder" :active="active"></app-order>
   </div>
 </template>
 
 <script>
-export default {};
+import order from './modals/order';
+
+export default {
+  components: {
+    'app-order': order,
+  },
+  data() {
+    return {
+      active: false,
+    };
+  },
+  methods: {
+    showOrder() {
+      this.active = true;
+    },
+    closeOrder() {
+      this.active = false;
+    },
+  },
+};
 </script>
 
 <style scoped>
