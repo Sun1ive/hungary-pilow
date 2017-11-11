@@ -33,7 +33,7 @@
 <style scoped>
 .work {
   min-height: 1400px;
-  background-image: url('../assets/2.jpg');
+  background-image: url('../assets/22.jpg');
 }
 .wrapper {
   max-width: 670px;

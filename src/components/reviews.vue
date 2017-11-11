@@ -13,7 +13,7 @@
     </slider>
 
     <div class="arrow"></div>
-    <div class="myButton">Заказать услугу</div>
+    <div class="myButton">Rendeljen most</div>
   </div>
 </template>
 

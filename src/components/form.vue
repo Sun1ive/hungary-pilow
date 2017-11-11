@@ -90,4 +90,7 @@ export default {
 .select select {
   width: 185px;
 }
+.field {
+  width: 230px;
+}
 </style>

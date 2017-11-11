@@ -5,7 +5,6 @@
       <app-form></app-form>
     <div class="close" @click="closeOrder"></div>
     </div>
-    <!-- <button class="modal-close is-large" aria-label="close" @click="closeOrder"></button> -->
   </div>
 </template>
 
