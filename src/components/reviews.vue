@@ -37,7 +37,8 @@ export default {
 @import '../css/slider.css';
 
 .reviews {
-  background-color: #c0c0c0;
+  background-image: url('../assets/44.jpg');
+  background-position: center center;
   min-height: 600px;
   color: #fff;
   position: relative;
