@@ -1,6 +1,6 @@
 <template>
   <div class="formContainer">
-    <form class="form">
+    <form class="form" @submit.prevent="submit">
       <h2>Оставьте свои данные</h2>
       <div class="wrap">
         <img src="../assets/clock.svg" alt="clock">
@@ -10,29 +10,26 @@
       <div class="field">
         <label class="label">Имя</label>
         <div class="control">
-          <input v-model="userData.name" class="input" type="text" placeholder="name">
+          <input v-model.lazy="userData.name" class="input" type="text" placeholder="name">
         </div>
       </div>
     
       <div class="field">
         <label class="label">Телефон</label>
         <div class="control">
-          <input v-model="userData.phone" class="input" type="text" placeholder="phone">
+          <input v-model.lazy="userData.phone" class="input" type="text" placeholder="phone">
         </div>
       </div>
 
       <div class="field">
         <label class="label">Город</label>
         <div class="control">
-          <div class="select">
-            <select>
-              <option>Select dropdown</option>
-            </select>
-          </div>
+          <input v-model.lazy="userData.city" class="input" type="text" placeholder="phone">
         </div>
       </div>
+
       <p>Наш менеджер уже набирает <br> ваш номер</p>
-      <div class="myButton">Отправить</div>
+      <button class="myButton" type="submit">Отправить</button>
     </form>
   </div>
 </template>
@@ -47,6 +44,16 @@ export default {
         city: '',
       },
     };
+  },
+  methods: {
+    submit() {
+      console.log(this.userData);
+      this.userData = {
+        name: '',
+        phone: '',
+        city: '',
+      };
+    },
   },
 };
 </script>
@@ -74,11 +81,12 @@ export default {
     text-align: center;
     margin: 1rem 0;
     color: var(--mainBlue);
-    opacity: .5;
+    opacity: 0.5;
     font-family: Helvetica, Arial, serif;
   }
   & .myButton {
     min-width: 130px;
+    border: none;
   }
   & h2 {
     font-size: responsive 1.5rem 2rem;

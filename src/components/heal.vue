@@ -1,11 +1,11 @@
 <template>
   <div class="heal">
     <div class="wrapper">
-      <h2>Хватит терять здоровый сон. Вылечите свою подушку!</h2>
+      <h2>Elég az álmatlan éjszakákból! Gyógyítsa meg párnáját!</h2>
       <div class="columns">
-        <div class="column">Пофессионализм сотрудников и дополнительные услуги.</div>
-        <div class="column">Пунктуальность в работе курьеров, своевременная доставка и сбор подушек.</div>
-        <div class="column">Убийственная очистка от грязи, пыли и микроорганизмов.</div>
+        <div class="column">A személyzet szakértelme és kiegészítő szolgáltatások.</div>
+        <div class="column">A futárok pontossága a párnak összegyűjtésében és kézbesítésében.</div>
+        <div class="column">Szennyeződésks, por, illetve a mikroorganizmusok eltávolítása.</div>
       </div>
     </div>
     <img class="rightPilow" src="../assets/p5.png" alt="pillow">
@@ -13,7 +13,7 @@
 
 
     <div class="arrow"></div>
-    <div class="myButton">Заказать услугу</div>
+    <div class="myButton">Rendeljen most</div>
   </div>
 </template>
 

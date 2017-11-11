@@ -3,9 +3,9 @@
     <div class="wrapper">
       <div class="header">
         <div class="flex">
-          <h1>Ваша подушка в опасности!</h1>
-          <p>Подушки после долгого использования хранят в себе пыль, являются средой обитания многих микрооганизмов и приносят вред вашему здоровью.Хотите хорошо высыпаться, заботитесь о своем здоровье и любите близких? Закажите очистку подушки.</p>
-          <div class="myButton">Заказать услугу</div>
+          <h1>Párnája veszélyben van!</h1>
+          <p>Hosszú használat után, a párnák nagy mennyiségű port képesek felvenni, és kiváló környezetet biztosítanak különböző mikroorganizmusnak, illetve baktériumnak, amelyek károsak egészségére. Szeretne nyugodtan aludni és ugyanakkor szerettei egészségére vigyázni? <br> Rendeljen párna tisztítást.</p>
+          <div class="myButton">Rendeljen most</div>
           <img class="pilow" src="../assets/p1.png" alt="pilow">
         </div>
       </div>

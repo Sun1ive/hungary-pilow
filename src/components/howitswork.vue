@@ -1,38 +1,34 @@
 <template>
   <div class="work">
     <div class="wrapper">
-      <h2>Как это работает?</h2>
+      <h2>Hogyan műkődik?</h2>
       <div class="Box">
         <img src="../assets/s1.png" alt="avatar">
-        <p>Вы сообщаете когда можно забрать пациента.</p>
+        <p>Ön megmondja, mikor vehető fel a páciens.</p>
       </div>
       <div class="Box">
         <img src="../assets/s2.png" alt="avatar">
-        <p>Мы составляем маршрут по городу и собираем больные подушечки.</p>
+        <p>Mi összeállítunk egy útvonalat városában és az összes beteg párnácskákat összegyűjtünk.</p>
       </div>
       <div class="Box">
         <img src="../assets/s3.png" alt="avatar">
-        <p>Очищаем перья и ткань от всяких гадостей и микропыли.</p>
+        <p>Eltávolítunk a baktériumokat és a szennyződéseket a párnákból.</p>
       </div>
       <div class="Box">
         <img src="../assets/s4.png" alt="avatar">
-        <p>Производим дополнительные работы, если такие имеются. Одеваем новый качественный наперник.</p>
+        <p>-Egy teljesen új és minőségi huzatba helyezzük a tiszta tollakat, és szükség esetén módosítást is vállalunk.</p>
       </div>
       <div class="Box">
         <img src="../assets/s5.png" alt="avatar">
-        <p>Привозим вам безупречно-чистую подушку уже вечером.</p>
+        <p>Estig egy kifogástalanul tiszta párnát hozunk vissza.</p>
       </div>
       <div class="Box">
         <img src="../assets/s6.png" alt="avatar">
-        <p>Помогаем создать ежегодный график чистки подушек.</p>
+        <p>Segítünk egy éves párnatisztítási grafikát létrehozni.</p>
       </div>
     </div>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
 
 <style scoped>
 .work {

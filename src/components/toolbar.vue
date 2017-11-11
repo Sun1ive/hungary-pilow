@@ -5,12 +5,12 @@
       <ul class="menu">
         <li><a href="mailto:example@example.com">example@example.com</a></li>
         <li><a href="tel:12321312">321312321</a></li>
-        <li v-scroll-to="'.header'">Приветствие</li>
-        <li v-scroll-to="'.why'">Преимущества</li>
-        <li v-scroll-to="'.video'">О нас</li>
-        <li v-scroll-to="'.reviews'">Отзывы</li>
+        <li v-scroll-to="'.header'">Főoldal</li>
+        <li v-scroll-to="'.why'">Előnyök</li>
+        <li v-scroll-to="'.video'">Rólunk</li>
+        <li v-scroll-to="'.reviews'">Vélemények</li>
       </ul>
-      <div class="myButton" @click="showOrder">Заказать услугу</div>
+      <div class="myButton" @click="showOrder">Rendeljen most</div>
     </div>
 
     <app-order @closeOrder="closeOrder" :active="active"></app-order>
