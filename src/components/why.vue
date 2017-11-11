@@ -19,6 +19,7 @@ teljesen új, minőségi huzatra cserélődik ki.
 .why {
   min-height: 480px;
   background-image: url('../assets/3.jpg');
+  background-position-x: 40%;
   background-color: var(--blue);
   position: relative;
   display: flex;

@@ -33,7 +33,7 @@
 <style scoped>
 .work {
   min-height: 1400px;
-  background-color: #fff;
+  background-image: url('../assets/2.jpg');
 }
 .wrapper {
   max-width: 670px;
@@ -53,7 +53,7 @@
     align-items: center;
     font-size: responsive 1rem 1.5rem;
     color: var(--para);
-    font-family: CharterC, Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     line-height: 2rem;
     & p {
       margin-left: 2rem;

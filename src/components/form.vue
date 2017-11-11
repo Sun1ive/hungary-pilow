@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     submit() {
-      console.log(this.userData);
+      // console.log(this.userData);
       this.userData = {
         name: '',
         phone: '',

@@ -24,6 +24,8 @@ export default {};
 <style scoped>
 .heal {
   background-image: radial-gradient(circle at 31% 18%, #2894e6, #1c84d3 62%, #157bc8);
+  background-image: url('../assets/3.jpg');
+  background-position-x: 40%;
   background-color: var(--mainBlue);
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.09);
   min-height: 560px;

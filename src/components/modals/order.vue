@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ 'is-active': active }" class="modal">
+  <div ref="modal" :class="{ 'is-active': active }" class="modal">
     <div class="modal-background"></div>
     <div class="modal-content">
       <app-form></app-form>
@@ -23,6 +23,12 @@ export default {
     closeOrder() {
       this.$emit('closeOrder');
     },
+  },
+  mounted() {
+    const modal = this.$refs.modal.classList.contains('is-active');
+    if (modal) {
+      modal.classList.remove('is-active');
+    }
   },
 };
 </script>
