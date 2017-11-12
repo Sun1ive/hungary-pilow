@@ -80,4 +80,28 @@ header {
     margin-left: 3rem;
   }
 }
+
+
+@media (max-width: 440px) {
+  .header {
+    min-height: 400px;
+  }
+  .header .myButton {
+    margin-left: 0;
+    margin: 1rem 0;
+  }
+  .header .flex .pilow {
+    display: none;
+  }
+  .header .flex {
+    width: 100%;
+    text-align: center;
+  }
+  .header p {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+
 </style>

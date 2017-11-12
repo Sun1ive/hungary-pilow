@@ -13,27 +13,6 @@
       <div class="myButton" @click="showOrder">Rendeljen most</div>
     </div>
 
-
-<nav class="navbar" role="navigation" aria-label="dropdown navigation">
-  <div class="navbar-item is-active has-dropdown">
-
-  <button class="button is-active navbar-burger" data-target="navMenu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-
-    <div class="navbar-dropdown">
-      <a class="navbar-item" href="mailto:example@example.com">example@example.com</a>
-      <a class="navbar-item" href="tel:32432432">432432423</a>
-      <a class="navbar-item" v-scroll-to="'.header'">Főoldal</a>
-      <a class="navbar-item" v-scroll-to="'.why'">Előnyök</a>
-      <a class="navbar-item" v-scroll-to="'.video'">Rólunk</a>
-      <a class="navbar-item" v-scroll-to="'.reviews'">Vélemények</a>
-    </div>
-  </div>
-</nav>
-
     <app-order @closeOrder="closeOrder" :active="active"></app-order>
   </div>
 </template>
