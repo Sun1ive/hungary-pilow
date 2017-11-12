@@ -77,7 +77,7 @@ export default {
 .wrapper {
   color: #fff;
   & h2 {
-    font-size: responsive 2rem 4rem;
+    font-size: responsive 1.5rem 4rem;
     text-align: center;
     padding-top: 3rem;
     max-width: 850px;
@@ -87,6 +87,26 @@ export default {
     margin-top: 4rem;
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
+  }
+}
+
+.column {
+  font-size: responsive .9rem 1rem;
+}
+
+@media (max-width: 700px) {
+  .heal .leftPilow,
+  .heal .rightPilow {
+    display: none;
+  }
+  .column {
+    width: 85%;
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+  .wrapper .columns {
+    width: 100%;
+    margin: 2rem auto;
   }
 }
 </style>

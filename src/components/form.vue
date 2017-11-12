@@ -112,4 +112,23 @@ export default {
 .label {
   color: var(--mainBlue);
 }
+
+@media (max-width: 440px) {
+  .form {
+    height: 320px;
+    width: 400px;
+  }
+  .form p {
+    display: none;
+  }
+  .wrap {
+    display: none;
+  }
+}
+
+@media (max-width: 340px) {
+  .form {
+    width: 300px;
+  }
+}
 </style>

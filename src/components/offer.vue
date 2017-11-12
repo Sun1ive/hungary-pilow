@@ -25,4 +25,10 @@ export default {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 440px) {
+  .formContainer {
+    min-height: 400px;
+  }
+}
 </style>

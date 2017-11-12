@@ -43,6 +43,8 @@ export default {
   font-size: responsive 1.2rem 2rem;
   color: var(--mainBlue);
   padding: 5rem 0 2rem 0;
+  text-align: center;
+  font-family: Helvetica, Arial, serif;
 }
 .myButton {
   position: absolute;

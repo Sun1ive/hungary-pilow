@@ -41,12 +41,13 @@
   align-items: center;
   flex-direction: column;
   & h2 {
-    font-size: responsive 2rem 4rem;
+    font-size: responsive 1.5rem 4rem;
     padding: 0.5rem 3rem;
     border-radius: 24px;
     color: var(--mainBlue);
     margin: 5rem 0 2rem 0;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.11);
+    font-family: Helvetica, Arial, serif;
   }
   & .Box {
     display: flex;
@@ -67,6 +68,24 @@
     &:nth-child(7) {
       flex-direction: row-reverse;
     }
+  }
+}
+
+@media (max-width: 440px) {
+  .wrapper .Box {
+    &:nth-child(3),
+    &:nth-child(5),
+    &:nth-child(7) {
+      flex-direction: column;
+    }
+    flex-direction: column;
+    &:nth-child(7) {
+      margin-bottom: 3rem;
+    }
+  }
+  .wrapper .Box p {
+    margin-left: 0;
+    text-align: center;
   }
 }
 </style>

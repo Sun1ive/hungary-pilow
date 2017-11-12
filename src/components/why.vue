@@ -35,4 +35,12 @@ teljesen új, minőségi huzatra cserélődik ki.
     margin-bottom: 3rem
   }
 }
+
+@media (max-width: 440px) {
+  .columns {
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+}
 </style>

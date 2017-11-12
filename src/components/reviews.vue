@@ -82,4 +82,10 @@ export default {
     left: 50%;
   }
 }
+
+@media (max-width: 440px) {
+  .reviews .wrapper p {
+    width: 100%;
+  }
+}
 </style>
