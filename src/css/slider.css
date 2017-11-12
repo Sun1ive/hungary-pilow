@@ -6,3 +6,11 @@
 .slider {
   margin: 0 auto !important;
 }
+
+.btn {
+  z-index: 9 !important;
+}
+
+.indicators {
+  z-index: 9 !important;
+}

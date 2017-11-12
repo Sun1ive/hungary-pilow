@@ -92,7 +92,17 @@ export default {
 
 .column {
   font-size: responsive .9rem 1rem;
+  position: relative;
+  z-index: 2;
 }
+
+
+@media (max-width: 1000px) {
+  .heal {
+    min-height: 475px;
+  }
+}
+
 
 @media (max-width: 700px) {
   .heal .leftPilow,
@@ -107,6 +117,15 @@ export default {
   .wrapper .columns {
     width: 100%;
     margin: 2rem auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .heal .myButton {
+    bottom: 0;
+  }
+  .heal .arrow {
+    bottom: 10%;
   }
 }
 </style>

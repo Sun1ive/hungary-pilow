@@ -8,19 +8,19 @@
     <div class="field">
       <label class="label">Név</label>
       <div class="control">
-        <input v-model.lazy="userData.name" class="input" type="text" placeholder="Név">
+        <input required v-model.lazy="userData.name" class="input" type="text" placeholder="Név">
       </div>
     </div>
     <div class="field">
       <label class="label">Telefonszám</label>
       <div class="control">
-        <input v-model.lazy="userData.phone" class="input" type="text" placeholder="Telefonszám">
+        <input required v-model.lazy="userData.phone" class="input" type="text" placeholder="Telefonszám">
       </div>
     </div>
     <div class="field">
       <label class="label">Helység</label>
       <div class="control">
-        <input v-model.lazy="userData.city" class="input" type="text" placeholder="Helység">
+        <input required v-model.lazy="userData.city" class="input" type="text" placeholder="Helység">
       </div>
     </div>
     <p>Menedszerünk már tárcsázza <br> az Ön telefonszámát</p>

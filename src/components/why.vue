@@ -16,6 +16,10 @@ teljesen új, minőségi huzatra cserélődik ki.
 </template>
 
 <style scoped>
+.columns {
+  margin: 0;
+}
+
 .why {
   min-height: 480px;
   background-image: url('../assets/3.jpg');
@@ -40,7 +44,6 @@ teljesen új, minőségi huzatra cserélődik ki.
   .columns {
     text-align: center;
     font-size: 0.9rem;
-    margin: 0;
   }
 }
 </style>

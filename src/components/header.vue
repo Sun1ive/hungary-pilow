@@ -75,21 +75,20 @@ header {
     font-size: 1rem;
     width: 65%;
     margin: 2rem 0 2rem 1rem;
+    position: relative;
+    z-index: 2;
   }
   & .myButton {
     margin-left: 3rem;
   }
 }
-
-
-@media (max-width: 440px) {
-  .header {
-    min-height: 400px;
+@media (max-width: 1100px) {
+  .header .flex .pilow {
+    right: 0;
   }
-  .header .myButton {
-    margin-left: 0;
-    margin: 1rem 0;
-  }
+} 
+
+@media (max-width: 600px) {
   .header .flex .pilow {
     display: none;
   }
@@ -100,6 +99,17 @@ header {
   .header p {
     margin: 0;
     width: 100%;
+  }
+  .header .myButton {
+    margin-left: 0;
+    margin: 1rem 0;
+  }
+}
+
+
+@media (max-width: 440px) {
+  .header {
+    min-height: 400px;
   }
 }
 
