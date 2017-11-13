@@ -108,7 +108,8 @@ header {
 
 @media (max-width: 440px) {
   .header {
-    min-height: 400px;
+    min-height: 450px;
+    padding-top: 6rem;
   }
 }
 </style>

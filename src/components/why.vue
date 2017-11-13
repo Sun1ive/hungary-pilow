@@ -65,7 +65,30 @@
     left: 63%;
   }
 }
+@media (max-width: 1100px) {
+  .why .bacterium2 {
+    width: 130px;
+    height: 130px;
+  }
+}
 
+@media (max-width: 800px) {
+  .why .bacterium1 {
+    width: 90px;
+    height: 90px;
+    top: 3%;
+  }
+}
+
+@media (max-width: 500px) {
+  .why {
+    & .bacterium1,
+    &  .bacterium2,
+    &  .bacterium3 {
+        display: none;
+      }
+  }
+}
 
 @media (max-width: 440px) {
   .columns {
