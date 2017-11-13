@@ -1,5 +1,5 @@
 <template>
-  <div class="toolbar">
+  <nav class="toolbar">
     <div class="wrapper">
       <img class="logo" src="../assets/logo.png" alt="logo">
       <ul class="menu">
@@ -12,6 +12,9 @@
       </ul>
       <div class="myButton" @click="showOrder">Rendeljen most</div>
     </div>
+
+<img class="logo_low" src="../assets/logo.png" alt="logo">
+<div class="myButton isVisible" @click="showOrder">Rendeljen most</div>
 
 <button class="button navbar-burger" @click="showMenu">
   <span></span>
@@ -34,7 +37,7 @@
 </nav>
 
     <app-order @closeOrder="closeOrder" :active="active"></app-order>
-  </div>
+  </nav>
 </template>
 
 <script>
@@ -117,9 +120,16 @@ export default {
     }
   }
 }
+.logo_low {
+  display: none;
+}
 
 .navbar-burger {
   margin: 0;
+  display: none;
+}
+
+.isVisible {
   display: none;
 }
 
@@ -143,6 +153,24 @@ export default {
     & .wrapper {
       display: none;
     }
+  }
+  .logo_low {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    right: 0%;
+  }
+  .isVisible {
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    min-width: 125px;
+    font-size: 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
   .navbar-burger {
     display: block;

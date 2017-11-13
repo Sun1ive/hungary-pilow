@@ -4,9 +4,9 @@
       <div class="header">
         <div class="flex">
           <h1>Párnája veszélyben van!</h1>
+          <img class="pilow" src="../assets/p1.png" alt="pilow">
           <p>Hosszú használat után, a párnák nagy mennyiségű port képesek felvenni, és kiváló környezetet biztosítanak különböző mikroorganizmusnak, illetve baktériumnak, amelyek károsak egészségére. Szeretne nyugodtan aludni és ugyanakkor szerettei egészségére vigyázni? <br> Rendeljen párna tisztítást.</p>
           <div class="myButton" @click="showOrder">Rendeljen most</div>
-          <img class="pilow" src="../assets/p1.png" alt="pilow">
         </div>
       </div>
     </div>
@@ -110,6 +110,11 @@ header {
   .header {
     min-height: 450px;
     padding-top: 6rem;
+  }
+  .header .flex .pilow {
+    position: relative;
+    display: block;
+    height: 250px;
   }
 }
 </style>
