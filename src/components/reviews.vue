@@ -29,9 +29,14 @@ export default {
   data() {
     return {
       items: [
-        '/static/reviews/one.jpg',
-        '/static/reviews/two.jpg',
-        '/static/reviews/three.jpg',
+        '/static/reviews/11.jpg',
+        '/static/reviews/12.jpg',
+        '/static/reviews/13.jpg',
+      ],
+      smallItems: [
+        '/static/reviews/lowresone.png',
+        '/static/reviews/lowrestwo.png',
+        '/static/reviews/lowresthree.png',
       ],
       active: false,
       width: '',
@@ -51,7 +56,13 @@ export default {
     },
   },
   mounted() {
-    this.width = window.innerWidth.toString();
+    const WIDTH = window.innerWidth;
+    this.width = WIDTH.toString();
+
+    if (WIDTH <= 500) {
+      this.items = this.smallItems;
+      console.log(WIDTH);
+    }
   },
 };
 </script>
@@ -97,6 +108,9 @@ export default {
   }
   .reviews {
     min-height: 380px;
+  }
+  .reviews .arrow {
+    bottom: 14%;
   }
 }
 </style>

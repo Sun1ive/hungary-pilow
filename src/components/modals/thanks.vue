@@ -4,7 +4,8 @@
     <div class="modal-content">
     <h2>Спасибо!</h2>
     <div class="wrap">
-      <img src="../../assets/clock.svg" alt="clock">
+      <!-- <img src="../../assets/clock.svg" alt="clock"> -->
+      <div class="clock"></div>
       <span>Наш менеджер скоро свяжется с Вами</span>
     </div>
     <div class="close" @click="closeThanks"></div>
@@ -37,6 +38,13 @@ export default {
   border-radius: 11px;
   min-height: 200px;
 }
+.clock {
+  background-image: url('../../assets/clock.svg');
+  background-size: cover;
+  width: 65px;
+  height: 65px;
+  margin-left: -1rem;
+}
 h2 {
   font-size: responsive 2rem 3rem;
   color: var(--mainBlue);
@@ -53,5 +61,6 @@ h2 {
 .wrap span {
   color: var(--blue);
   font-size: responsive 1rem 2rem;
+  margin-left: -1rem;
 }
 </style>

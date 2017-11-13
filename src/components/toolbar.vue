@@ -165,7 +165,7 @@ export default {
     display: block;
     position: absolute;
     top: 25%;
-    left: 25%;
+    left: 31%;
     min-width: 125px;
     font-size: 0.8rem;
     display: inline-flex;

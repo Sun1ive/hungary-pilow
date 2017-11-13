@@ -125,7 +125,7 @@ export default {
 @media (max-width: 440px) {
   .form {
     height: 320px;
-    width: 400px;
+    width: 350px;
   }
   .form p {
     display: none;
