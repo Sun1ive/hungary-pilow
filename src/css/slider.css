@@ -5,6 +5,7 @@
 
 .slider {
   margin: 0 auto !important;
+  max-width: 800px;
 }
 
 .btn {

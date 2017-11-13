@@ -6,9 +6,11 @@
     </div>
     <slider 
     animation="normal"
-    :width="width">
+    :width="width"
+    :speed="900"
+    :interval="5000">
       <slider-item v-for="(item, i) in items" :key="i">
-        <div>{{ item }}</div>
+        <img :src="item" alt="review">
       </slider-item>
     </slider>
 
@@ -26,7 +28,11 @@ import order from './modals/order';
 export default {
   data() {
     return {
-      items: ['hello world', 'hello there', 'thanks'],
+      items: [
+        '/static/reviews/1.png',
+        '/static/reviews/2.png',
+        '/static/reviews/3.png',
+      ],
       active: false,
       width: '',
     };
@@ -66,7 +72,7 @@ export default {
       padding-top: 3rem;
     }
     & p {
-      font-family: CharterC, Arial, Helvetica, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       width: 40%;
       margin: 0 auto;
     }
@@ -86,6 +92,9 @@ export default {
 @media (max-width: 440px) {
   .reviews .wrapper p {
     width: 100%;
+  }
+  .reviews {
+    min-height: 380px;
   }
 }
 </style>
