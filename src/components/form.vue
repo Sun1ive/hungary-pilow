@@ -49,18 +49,18 @@ export default {
   },
   methods: {
     submit() {
-      // Email.send(
-      //   `coats@indresser.com`,
-      //   // 'info@indresser.com',
-      //   'sunliveua@gmail.com',
-      //   'Заказ с сайта hungary-pilow',
-      //   `Пользователь: ${this.userData.name},
-      //   Город: ${this.userData.city},
-      //   Телефон: ${this.userData.phone}`,
-      //   'mail.adm.tools',
-      //   'coats@indresser.com',
-      //   '3DLao3x1AC8t',
-      // );
+      Email.send(
+        `coats@indresser.com`,
+        // 'info@indresser.com',
+        'vi290983mal@gmail.com',
+        'Заказ с сайта Párna Tisztítás',
+        `Пользователь: ${this.userData.name},
+        Город: ${this.userData.city},
+        Телефон: ${this.userData.phone}`,
+        'mail.adm.tools',
+        'coats@indresser.com',
+        '3DLao3x1AC8t',
+      );
       // this.$emit('closeOrder');
       this.isActive = true;
       this.userData = {

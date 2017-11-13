@@ -3,26 +3,32 @@
     <div class="wrapper">
       <h2>Hogyan műkődik?</h2>
       <div class="Box">
+        <div class="Number One">1</div>
         <img src="../assets/s1.png" alt="avatar">
         <p>Ön megmondja, mikor vehető fel a páciens.</p>
       </div>
       <div class="Box">
+        <div class="Number">2</div>
         <img src="../assets/s2.png" alt="avatar">
         <p>Mi összeállítunk egy útvonalat városában és az összes beteg párnácskákat összegyűjtünk.</p>
       </div>
       <div class="Box">
+        <div class="Number">3</div>
         <img src="../assets/s3.png" alt="avatar">
         <p>Eltávolítunk a baktériumokat és a szennyződéseket a párnákból.</p>
       </div>
       <div class="Box">
+        <div class="Number">4</div>
         <img src="../assets/s4.png" alt="avatar">
         <p>-Egy teljesen új és minőségi huzatba helyezzük a tiszta tollakat, és szükség esetén módosítást is vállalunk.</p>
       </div>
       <div class="Box">
+        <div class="Number">5</div>
         <img src="../assets/s5.png" alt="avatar">
         <p>Estig egy kifogástalanul tiszta párnát hozunk vissza.</p>
       </div>
       <div class="Box">
+        <div class="Number">6</div>
         <img src="../assets/s6.png" alt="avatar">
         <p>Segítünk egy éves párnatisztítási grafikát létrehozni.</p>
       </div>
@@ -56,20 +62,42 @@
     color: var(--para);
     font-family: Helvetica, Arial, sans-serif;
     line-height: 2rem;
+    position: relative;
     & p {
       margin-left: 2rem;
     }
     & img {
       width: 181px;
       height: 181px;
+      z-index: 2;
     }
     &:nth-child(3),
     &:nth-child(5),
     &:nth-child(7) {
       flex-direction: row-reverse;
+      & .Number {
+        right: -10%;
+      }
     }
   }
 }
+
+.Number {
+  font-size: 20rem;
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--mainBlue);
+  opacity: .1;
+  z-index: 1;
+  position: absolute;
+  right: 80%;
+}
+
+@media (max-width: 800px) {
+  .wrapper .Box:nth-child(3) .Number, .wrapper .Box:nth-child(5) .Number, .wrapper .Box:nth-child(7) .Number {
+    right: 0;
+  }
+}
+
 
 @media (max-width: 440px) {
   .wrapper .Box {
@@ -77,6 +105,10 @@
     &:nth-child(5),
     &:nth-child(7) {
       flex-direction: column;
+      margin: 3rem 0;
+      & .Number {
+        right: 0;
+      }
     }
     flex-direction: column;
     &:nth-child(7) {
@@ -86,6 +118,14 @@
   .wrapper .Box p {
     margin-left: 0;
     text-align: center;
+  }
+  .Number {
+    font-size: 15rem;
+    bottom: 50%;
+    left: 5%;
+  }
+  .One {
+    left: -10%;
   }
 }
 </style>

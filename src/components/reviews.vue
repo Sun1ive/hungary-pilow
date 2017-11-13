@@ -61,7 +61,6 @@ export default {
 
     if (WIDTH <= 500) {
       this.items = this.smallItems;
-      console.log(WIDTH);
     }
   },
 };

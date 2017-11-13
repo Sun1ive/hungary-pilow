@@ -3,7 +3,7 @@
     <div class="wrapper">
       <img class="logo" src="../assets/logo.png" alt="logo">
       <ul class="menu">
-        <li><a href="mailto:example@example.com">example@example.com</a></li>
+        <li><a href="mailto:parnatisztitas@freemail.hu">parnatisztitas@freemail.hu</a></li>
         <li><a href="tel:‎06307088781">‎06 30 708 8781</a></li>
         <li v-scroll-to="'.header'">Főoldal</li>
         <li v-scroll-to="'.why'">Előnyök</li>
@@ -26,7 +26,7 @@
 <nav class="navbar" id="navbar" role="navigation" aria-label="dropdown navigation">
   <div class="navbar-item has-dropdown is-active">
     <div class="navbar-dropdown">
-      <a class="navbar-item" href="mailto:example@example.com">example@example.com</a>
+      <a class="navbar-item" href="mailto:parnatisztitas@freemail.hu">parnatisztitas@freemail.hu</a>
       <a class="navbar-item" href="tel:‎06307088781">‎06 30 708 8781</a>
       <a class="navbar-item" v-scroll-to="'.header'">Főoldal</a>
       <a class="navbar-item" v-scroll-to="'.why'">Előnyök</a>
