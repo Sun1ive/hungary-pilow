@@ -176,4 +176,10 @@ export default {
     display: block;
   }
 }
+
+@media (max-width: 330px) {
+  .isVisible {
+    left: 25%;
+  }
+}
 </style>

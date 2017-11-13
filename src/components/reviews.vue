@@ -34,9 +34,9 @@ export default {
         '/static/reviews/13.jpg',
       ],
       smallItems: [
-        '/static/reviews/lowresone.png',
-        '/static/reviews/lowrestwo.png',
-        '/static/reviews/lowresthree.png',
+        '/static/reviews/1.png',
+        '/static/reviews/2.png',
+        '/static/reviews/3.png',
       ],
       active: false,
       width: '',

@@ -39,3 +39,9 @@
     margin: 1rem auto 0 !important;
   }
 }
+
+@media (max-width: 330px) {
+  .slider {
+    height: 80px !important;
+  }
+}

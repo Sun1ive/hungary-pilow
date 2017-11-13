@@ -5,17 +5,17 @@
       <div class="Box">
         <div class="Number One">1</div>
         <img src="../assets/s1.png" alt="avatar">
-        <p>Ön megmondja, mikor vehető fel a páciens.</p>
+        <p>Ön megmondja mikor vehető fel a páciens.</p>
       </div>
       <div class="Box">
         <div class="Number">2</div>
         <img src="../assets/s2.png" alt="avatar">
-        <p>Mi összeállítunk egy útvonalat városában és az összes beteg párnácskákat összegyűjtünk.</p>
+        <p>Mi összeálltunk egy útvonalat városában és az összes beteg párnácskát összegyűjtünk.</p>
       </div>
       <div class="Box">
         <div class="Number">3</div>
         <img src="../assets/s3.png" alt="avatar">
-        <p>Eltávolítunk a baktériumokat és a szennyződéseket a párnákból.</p>
+        <p>Eltávolítjuk a baktériumokat és a szennyeződéseket a párnákból.</p>
       </div>
       <div class="Box">
         <div class="Number">4</div>
