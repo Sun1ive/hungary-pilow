@@ -5,7 +5,7 @@
       <p>Köszönjük javaslatáért, jó munkavégzésre ösztönöznek bennünket!</p>
     </div>
     <slider 
-    animation="normal"
+    animation="fade"
     :width="width"
     :speed="900"
     :interval="5000">
@@ -29,9 +29,9 @@ export default {
   data() {
     return {
       items: [
-        '/static/reviews/1.png',
-        '/static/reviews/2.png',
-        '/static/reviews/3.png',
+        '/static/reviews/one.jpg',
+        '/static/reviews/two.jpg',
+        '/static/reviews/three.jpg',
       ],
       active: false,
       width: '',
@@ -67,6 +67,7 @@ export default {
   position: relative;
   & .wrapper {
     text-align: center;
+    margin-bottom: 2rem;
     & h2 {
       font-size: responsive 2rem 4rem;
       padding-top: 3rem;
@@ -75,6 +76,7 @@ export default {
       font-family: Arial, Helvetica, sans-serif;
       width: 40%;
       margin: 0 auto;
+      padding-top: 1rem;
     }
   }
   & .myButton {

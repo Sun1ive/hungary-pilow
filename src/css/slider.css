@@ -4,10 +4,25 @@
 }
 
 .slider {
-  margin: 0 auto !important;
-  max-width: 800px;
+  margin: 4rem auto 0 !important;
+  max-width: 900px;
+  height: 200px !important;
+}
+.slider img {
+  height: 100%;
+  width: 100%;
 }
 
+.slider-icon[data-v-5dba9d84] {
+  border-color: var(--mainBlue);
+}
+.btn:hover .slider-icon[data-v-5dba9d84] {
+  border-color: var(--mainBlue) - 50%;
+}
+
+.indicators[data-v-5dba9d84] {
+  bottom: 0;
+}
 .btn {
   z-index: 9 !important;
 }
