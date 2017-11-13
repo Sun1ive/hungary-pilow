@@ -43,7 +43,12 @@ export default {
 
 <style scoped>
 .heal {
-  background-image: radial-gradient(circle at 31% 18%, #2894e6, #1c84d3 62%, #157bc8);
+  background-image: radial-gradient(
+    circle at 31% 18%,
+    #2894e6,
+    #1c84d3 62%,
+    #157bc8
+  );
   background-image: url('../assets/3.jpg');
   background-position-x: 40%;
   background-color: var(--mainBlue);
@@ -91,18 +96,16 @@ export default {
 }
 
 .column {
-  font-size: responsive .9rem 1rem;
+  font-size: responsive 0.9rem 1rem;
   position: relative;
   z-index: 2;
 }
-
 
 @media (max-width: 1000px) {
   .heal {
     min-height: 475px;
   }
 }
-
 
 @media (max-width: 700px) {
   .heal .leftPilow,

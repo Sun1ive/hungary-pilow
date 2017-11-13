@@ -36,7 +36,7 @@ teljesen új, minőségi huzatra cserélődik ki.
     max-width: 700px;
     text-align: center;
     line-height: 1.1;
-    margin-bottom: 3rem
+    margin-bottom: 3rem;
   }
 }
 

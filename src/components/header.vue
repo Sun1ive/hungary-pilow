@@ -86,7 +86,7 @@ header {
   .header .flex .pilow {
     right: 0;
   }
-} 
+}
 
 @media (max-width: 600px) {
   .header .flex .pilow {
@@ -106,12 +106,9 @@ header {
   }
 }
 
-
 @media (max-width: 440px) {
   .header {
     min-height: 400px;
   }
 }
-
-
 </style>
