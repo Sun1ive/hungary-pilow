@@ -24,6 +24,11 @@ export default {
 </script>
 
 <style>
+html {
+  background-image: url('./assets/back.png');
+  background-repeat: repeat;
+}
+
 #app {
   font-family: 'CharterC-Bold', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

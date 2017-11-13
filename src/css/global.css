@@ -1,12 +1,14 @@
 /* variables */
 :root {
   --mainBlue: #0766ae;
+  --logo: #000055;
   --blue: #2894e6;
   --para: #1e1e1e;
 }
 
 h2 {
   line-height: 1;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /* custom styles */
@@ -29,6 +31,9 @@ h2 {
 }
 .myButton:hover {
   background-color: #333;
+}
+a {
+  color: var(--logo);
 }
 
 .close {

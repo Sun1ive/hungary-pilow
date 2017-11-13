@@ -3,6 +3,7 @@
     <div class="wrapper">
       <h3>Nézze meg a következő tájekoztató videót szolgáltatásunkról</h3>
       <!-- <iframe width="620" height="345" src="https://www.youtube-nocookie.com/embed/bag-O-KrswA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
+      <iframe class="videoFrame" :width="width" height="415" src="https://www.youtube.com/embed/8s74hbg8khE?rel=0" frameborder="0" allowfullscreen></iframe>
       <div class="myButton" @click="showOrder">Rendeljen most</div>
     </div>
 
@@ -20,6 +21,7 @@ export default {
   data() {
     return {
       active: false,
+      width: '',
     };
   },
   methods: {
@@ -30,6 +32,9 @@ export default {
       this.active = false;
     },
   },
+  mounted() {
+    this.width = window.innerWidth;
+  },
 };
 </script>
 
@@ -39,10 +44,15 @@ export default {
   min-height: 600px;
   position: relative;
 }
+.videoFrame {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .video .wrapper h3 {
   font-size: responsive 1.2rem 2rem;
   color: var(--mainBlue);
-  padding: 5rem 0 2rem 0;
+  padding: 2rem 0 2rem 0;
   text-align: center;
   font-family: Helvetica, Arial, serif;
 }

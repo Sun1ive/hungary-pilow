@@ -48,6 +48,7 @@ header {
   align-items: center;
   min-height: 700px;
   position: relative;
+  font-family: Helvetica, Arial, sans-serif;
   & .flex {
     width: 64%;
     margin-right: auto;
@@ -62,7 +63,6 @@ header {
   & h1 {
     font-size: responsive 2rem 4rem;
     line-height: 1.06;
-    font-family: CharterC-Bold, Arial;
     color: var(--mainBlue);
     background-color: #fff;
     border-radius: 20px;

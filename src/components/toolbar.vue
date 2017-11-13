@@ -76,7 +76,10 @@ export default {
   display: none;
 }
 .navbar-item {
-  color: var(--mainBlue);
+  color: var(--logo);
+}
+.menu li{
+  color: var(--logo);
 }
 
 .toolbar {
