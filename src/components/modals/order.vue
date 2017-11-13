@@ -1,5 +1,5 @@
 <template>
-  <div ref="modal" :class="{ 'is-active': active }" class="modal">
+  <div ref="modal" id="order" :class="{ 'is-active': active }" class="modal">
     <div class="modal-background"></div>
     <div class="modal-content">
       <app-form @closeOrder="closeOrder"></app-form>

@@ -2,7 +2,7 @@
   <footer>
     <div class="footer">
       <ul class="socials">
-        <li><a href="#"><img src="../assets/facebook.svg" alt="facebook"></a></li>
+        <li><a href="https://www.facebook.com/ParnaTisztitas/"><img src="../assets/facebook.svg" alt="facebook"></a></li>
         <li><a href="#"><img src="../assets/instagram.svg" alt="isntagram"></a></li>
       </ul>
       <div class="up" @click="scrollTop"></div>

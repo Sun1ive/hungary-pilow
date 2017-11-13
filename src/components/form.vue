@@ -25,11 +25,18 @@
     </div>
     <p>Menedszerünk már tárcsázza <br> az Ön telefonszámát</p>
     <button class="myButton" type="submit">Küldés</button>
+
+    <app-thanks @closeThanks="closeThanks" :isActive="isActive"></app-thanks>
   </form>
 </template>
 
 <script>
+import thanks from './modals/thanks';
+
 export default {
+  components: {
+    'app-thanks': thanks,
+  },
   data() {
     return {
       userData: {
@@ -37,33 +44,35 @@ export default {
         phone: '',
         city: '',
       },
+      isActive: false,
     };
   },
   methods: {
     submit() {
-      const modal = document.querySelector('.modal');
-      Email.send(
-        `coats@indresser.com`,
-        // 'info@indresser.com',
-        'sunliveua@gmail.com',
-        'Заказ с сайта hungary-pilow',
-        `Пользователь: ${this.userData.name},
-        Город: ${this.userData.city},
-        Телефон: ${this.userData.phone}`,
-        'mail.adm.tools',
-        'coats@indresser.com',
-        '3DLao3x1AC8t',
-      );
-      if (modal.classList.contains('is-active')) {
-        this.$emit('closeOrder');
-      }
-
+      // Email.send(
+      //   `coats@indresser.com`,
+      //   // 'info@indresser.com',
+      //   'sunliveua@gmail.com',
+      //   'Заказ с сайта hungary-pilow',
+      //   `Пользователь: ${this.userData.name},
+      //   Город: ${this.userData.city},
+      //   Телефон: ${this.userData.phone}`,
+      //   'mail.adm.tools',
+      //   'coats@indresser.com',
+      //   '3DLao3x1AC8t',
+      // );
+      // this.$emit('closeOrder');
+      this.isActive = true;
       this.userData = {
         name: '',
         phone: '',
         city: '',
       };
     },
+    closeThanks() {
+      this.isActive = false;
+      this.$emit('closeOrder');
+    }
   },
 };
 </script>

@@ -7,11 +7,15 @@
         </div>
         <div class="column">Házhoz szállító szolgáltatásunknak köszönhetően időt spórolhat. Bízzon szakértőnkre, hogy rövid idő alatt találjanak megoldást a feladatra.
         </div>
-        <div class="column">Átméretezést is választhat egy nagy párnából két kisebb párnákká, ugyanakkor a régi huzat is egy
-teljesen új, minőségi huzatra cserélődik ki.
+        <div class="column">Átméretezést is választhat egy nagy párnából két kisebb párnákká, ugyanakkor a régi huzat is egy teljesen új, minőségi huzatra cserélődik ki.
         </div>
       </div>
     </div>
+
+
+    <img class="bacterium1" src="../assets/p2.png" alt="bacterium">
+    <img class="bacterium2" src="../assets/p2.png" alt="bacterium">
+    <img class="bacterium3" src="../assets/p4.png" alt="bacterium">
   </div>
 </template>
 
@@ -31,6 +35,7 @@ teljesen új, minőségi huzatra cserélődik ki.
   align-items: center;
   flex-direction: column;
   color: #fff;
+  overflow: hidden;
   & h2 {
     font-size: responsive 2rem 4rem;
     max-width: 700px;
@@ -38,7 +43,29 @@ teljesen új, minőségi huzatra cserélődik ki.
     line-height: 1.1;
     margin-bottom: 3rem;
   }
+  & .bacterium1 {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    right: 3%;
+    top: 15%;
+  } 
+  & .bacterium2 {
+    position: absolute;
+    width: 224px;
+    height: 225px;
+    left: -8%;
+    top: 10%;
+  }
+  & .bacterium3 {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    bottom: 17%;
+    left: 63%;
+  }
 }
+
 
 @media (max-width: 440px) {
   .columns {
