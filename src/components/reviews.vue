@@ -29,14 +29,16 @@ export default {
   data() {
     return {
       items: [
-        '/static/reviews/11.jpg',
-        '/static/reviews/12.jpg',
-        '/static/reviews/13.jpg',
-      ],
-      smallItems: [
         '/static/reviews/1.png',
         '/static/reviews/2.png',
         '/static/reviews/3.png',
+        '/static/reviews/4.png',
+      ],
+      smallerItems: [
+        '/static/reviews/441.png',
+        '/static/reviews/442.png',
+        '/static/reviews/443.png',
+        '/static/reviews/444.png',
       ],
       active: false,
       width: '',
@@ -59,9 +61,11 @@ export default {
     const WIDTH = window.innerWidth;
     this.width = WIDTH.toString();
 
-    if (WIDTH <= 500) {
-      this.items = this.smallItems;
-    }
+    // if (WIDTH <= 480) {
+    //   this.items = this.smallerItems;
+    // } else if (WIDTH <= 350) {
+    //   this.items = this.smallItems;
+    // }
   },
 };
 </script>
@@ -72,7 +76,8 @@ export default {
 .reviews {
   background-image: url('../assets/44.jpg');
   background-position: center center;
-  min-height: 600px;
+  background-size: cover;
+  min-height: 920px;
   color: #fff;
   position: relative;
   & .wrapper {
@@ -106,7 +111,7 @@ export default {
     width: 100%;
   }
   .reviews {
-    min-height: 380px;
+    min-height: 550px;
   }
   .reviews .arrow {
     bottom: 14%;

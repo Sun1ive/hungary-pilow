@@ -2,7 +2,7 @@
   <div class="video">
     <div class="wrapper">
       <h3>Urmariti un material video interesant despre serviciile noastre</h3>
-      <iframe class="videoFrame" :width="width" height="415" src="https://www.youtube.com/embed/8s74hbg8khE?rel=0" frameborder="0" allowfullscreen></iframe>
+      <iframe class="videoFrame" :width="width" height="415" src="https://www.youtube.com/embed/02RZiAW8ha0?rel=0" frameborder="0" allowfullscreen></iframe>
       <div class="myButton" @click="showOrder">Comanda acum</div>
     </div>
 

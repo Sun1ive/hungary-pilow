@@ -3,9 +3,9 @@
     <div class="wrapper">
       <div class="header">
         <div class="flex">
-          <h1>Perna Dv este in pericol!</h1>
+          <h1>Perna ta este în pericol!</h1>
           <img class="pilow" src="../assets/p1.png" alt="pilow">
-          <p>Pernele, dupa o lunga intrebuintare, aduna in ele praf, si creeaza un mediu favorabil pentru dezvoltarea multor microorganisme si bacterii care dauneaza sanatatii dvs. Doriti sa dormiti bine si sa aveti grija de sanatatea dvs si a celor dragi? <br> Comandati o curatare a pernelor.</p>
+          <p>Pernele, după o lungă întrebuințare adună în ele praf si creează un mediu favorabil pentru dezvoltarea multor microorganisme și bacterii care dăunează sănătății dumneavoastră, așadar somnul  devine o problemă. Dacă doriți ca somnul să devină mai liniștit și lipsit de griji iar sănătatea celor dragi este importantă pentru dumneavoastră, NU ezitați să apelați la serviciul nostru de curățare a pernelor</p>
           <div class="myButton" @click="showOrder">Comanda acum</div>
         </div>
       </div>
@@ -70,7 +70,7 @@ header {
   }
   & p {
     color: var(--mainBlue);
-    font-family: 'Helvetica', Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     letter-spacing: 0.3px;
     font-size: 1rem;
     width: 65%;
