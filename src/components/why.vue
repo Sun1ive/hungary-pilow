@@ -3,11 +3,11 @@
     <h2>Ez miért szükséges?</h2>
     <div class="wrapper">
       <div class="columns">
-        <div class="column"> Párna tisztítás mikroszkópikus szinten, az összes porszemcsék eltávolítása. Az összes betegséget okozó mikroorganizmust elpusztítja.
+        <div class="column" data-aos="zoom-in" data-aos-delay="100"> Párna tisztítás mikroszkópikus szinten, az összes porszemcsék eltávolítása. Az összes betegséget okozó mikroorganizmust elpusztítja.
         </div>
-        <div class="column">Házhoz szállító szolgáltatásunknak köszönhetően időt spórolhat. Bízzon szakértőnkre, hogy rövid idő alatt találjanak megoldást a feladatra.
+        <div class="column" data-aos="zoom-in" data-aos-delay="300">Házhoz szállító szolgáltatásunknak köszönhetően időt spórolhat. Bízzon szakértőnkre, hogy rövid idő alatt találjanak megoldást a feladatra.
         </div>
-        <div class="column">Átméretezést is választhat egy nagy párnából két kisebb párnákká, ugyanakkor a régi huzat is egy teljesen új, minőségi huzatra cserélődik ki.
+        <div class="column" data-aos="zoom-in" data-aos-delay="500">Átméretezést is választhat egy nagy párnából két kisebb párnákká, ugyanakkor a régi huzat is egy teljesen új, minőségi huzatra cserélődik ki.
         </div>
       </div>
     </div>

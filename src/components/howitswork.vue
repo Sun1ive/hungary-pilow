@@ -2,32 +2,32 @@
   <div class="work">
     <div class="wrapper">
       <h2>Hogyan műkődik?</h2>
-      <div class="Box">
+      <div class="Box" data-aos="fade-up">
         <div class="Number One">1</div>
         <img src="../assets/s1.png" alt="avatar">
         <p>Ön megmondja mikor vehető fel a páciens.</p>
       </div>
-      <div class="Box">
+      <div class="Box" data-aos="fade-right">
         <div class="Number">2</div>
         <img src="../assets/s2.png" alt="avatar">
         <p>Mi összeálltunk egy útvonalat városában és az összes beteg párnácskát összegyűjtünk.</p>
       </div>
-      <div class="Box">
+      <div class="Box" data-aos="fade-left">
         <div class="Number">3</div>
         <img src="../assets/s3.png" alt="avatar">
         <p>Eltávolítjuk a baktériumokat és a szennyeződéseket a párnákból.</p>
       </div>
-      <div class="Box">
+      <div class="Box" data-aos="fade-down">
         <div class="Number">4</div>
         <img src="../assets/s4.png" alt="avatar">
         <p>-Egy teljesen új és minőségi huzatba helyezzük a tiszta tollakat, és szükség esetén módosítást is vállalunk.</p>
       </div>
-      <div class="Box">
+      <div class="Box" data-aos="fade-up">
         <div class="Number">5</div>
         <img src="../assets/s5.png" alt="avatar">
         <p>Estig egy kifogástalanul tiszta párnát hozunk vissza.</p>
       </div>
-      <div class="Box">
+      <div class="Box" data-aos="fade-right">
         <div class="Number">6</div>
         <img src="../assets/s6.png" alt="avatar">
         <p>Segítünk egy éves párnatisztítási grafikát létrehozni.</p>
@@ -70,6 +70,10 @@
       width: 181px;
       height: 181px;
       z-index: 2;
+      transition: .4s ease;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
     &:nth-child(3),
     &:nth-child(5),

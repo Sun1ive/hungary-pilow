@@ -12,6 +12,7 @@ import toolbar from '@/components/toolbar';
 import header from '@/components/header';
 import main from '@/components/main';
 import footer from '@/components/footer';
+import AOS from 'aos';
 
 export default {
   components: {
@@ -19,6 +20,16 @@ export default {
     'app-header': header,
     'app-main': main,
     'app-footer': footer,
+  },
+  mounted() {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+      disable: 'mobile',
+      // once: true,
+    });
   },
 };
 </script>

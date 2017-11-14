@@ -8,8 +8,8 @@
         <div class="column">Szennyeződésks, por, illetve a mikroorganizmusok eltávolítása.</div>
       </div>
     </div>
-    <img class="rightPilow" src="../assets/p5.png" alt="pillow">
-    <img class="leftPilow" src="../assets/p6.png" alt="pillow">
+    <img data-aos="fade-in" data-aos-duration="1000" class="rightPilow" src="../assets/p5.png" alt="pillow">
+    <img data-aos="fade-out" data-aos-duration="1000" class="leftPilow" src="../assets/p6.png" alt="pillow">
 
     <div class="arrow"></div>
     <div class="myButton" @click="showOrder">Rendeljen most</div>
