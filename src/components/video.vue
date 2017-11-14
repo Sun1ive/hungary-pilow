@@ -32,7 +32,7 @@ export default {
     },
   },
   mounted() {
-    this.width = window.innerWidth;
+    this.width = (window.innerWidth - 30);
   },
 };
 </script>

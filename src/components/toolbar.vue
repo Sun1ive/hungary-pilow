@@ -112,7 +112,7 @@ export default {
   color: var(--mainBlue);
   font-family: Arial, Helvetica, sans-serif;
   & li {
-    font-size: responsive 0.8rem 1rem;
+    font-size: responsive 0.7rem 1rem;
     cursor: pointer;
     transition: 0.4s ease;
     &:hover {
