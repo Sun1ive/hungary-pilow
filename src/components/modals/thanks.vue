@@ -4,7 +4,6 @@
     <div class="modal-content">
     <h2>Köszönjük szépen!</h2>
     <div class="wrap">
-      <!-- <img src="../../assets/clock.svg" alt="clock"> -->
       <div class="clock"></div>
       <span>Menedzserünk felveszi Önnel a kapcsolatot és az összes részletet feljegyzi.</span>
     </div>

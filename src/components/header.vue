@@ -3,10 +3,10 @@
     <div class="wrapper">
       <div class="header">
         <div class="flex">
-          <h1>Párnája veszélyben van!</h1>
+          <h1>Perna Dv este in pericol!</h1>
           <img class="pilow" src="../assets/p1.png" alt="pilow">
-          <p>Hosszú használat után, a párnák nagy mennyiségű port képesek felvenni, és kiváló környezetet biztosítanak különböző mikroorganizmusnak, illetve baktériumnak, amelyek károsak egészségére. Szeretne nyugodtan aludni és ugyanakkor szerettei egészségére vigyázni? <br> Rendeljen párna tisztítást.</p>
-          <div class="myButton" @click="showOrder">Rendeljen most</div>
+          <p>Pernele, dupa o lunga intrebuintare, aduna in ele praf, si creeaza un mediu favorabil pentru dezvoltarea multor microorganisme si bacterii care dauneaza sanatatii dvs. Doriti sa dormiti bine si sa aveti grija de sanatatea dvs si a celor dragi? <br> Comandati o curatare a pernelor.</p>
+          <div class="myButton" @click="showOrder">Comanda acum</div>
         </div>
       </div>
     </div>

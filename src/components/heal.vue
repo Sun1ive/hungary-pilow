@@ -1,18 +1,18 @@
 <template>
   <div class="heal">
     <div class="wrapper">
-      <h2>Elég az álmatlan éjszakákból! Gyógyítsa meg párnáját!</h2>
+      <h2>Destul cu noptile nedormite! Vindecati-va perna!</h2>
       <div class="columns">
-        <div class="column">A személyzet szakértelme és kiegészítő szolgáltatások.</div>
-        <div class="column">A futárok pontossága a párnak összegyűjtésében és kézbesítésében.</div>
-        <div class="column">Szennyeződésks, por, illetve a mikroorganizmusok eltávolítása.</div>
+        <div class="column">Profesionalismul angajatilor si servicii suplimentare</div>
+        <div class="column">Punctualitatea curierilor in colectarea si livrarea la timp a pernelor.</div>
+        <div class="column">Curatare de mizerie, praf si microorganisme</div>
       </div>
     </div>
     <img data-aos="fade-in" data-aos-duration="1000" class="rightPilow" src="../assets/p5.png" alt="pillow">
     <img data-aos="fade-out" data-aos-duration="1000" class="leftPilow" src="../assets/p6.png" alt="pillow">
 
     <div class="arrow"></div>
-    <div class="myButton" @click="showOrder">Rendeljen most</div>
+    <div class="myButton" @click="showOrder">Comanda acum</div>
 
     <app-order @closeOrder="closeOrder" :active="active"></app-order>
   </div>

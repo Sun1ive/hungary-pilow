@@ -1,9 +1,9 @@
 <template>
   <div class="video">
     <div class="wrapper">
-      <h3>Nézze meg a következő tájekoztató videót szolgáltatásunkról</h3>
+      <h3>Urmariti un material video interesant despre serviciile noastre</h3>
       <iframe class="videoFrame" :width="width" height="415" src="https://www.youtube.com/embed/8s74hbg8khE?rel=0" frameborder="0" allowfullscreen></iframe>
-      <div class="myButton" @click="showOrder">Rendeljen most</div>
+      <div class="myButton" @click="showOrder">Comanda acum</div>
     </div>
 
     <app-order @closeOrder="closeOrder" :active="active"></app-order>

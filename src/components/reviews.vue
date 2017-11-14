@@ -1,8 +1,8 @@
 <template>
   <div class="reviews">
     <div class="wrapper">
-      <h2>Vélemények</h2>
-      <p>Köszönjük javaslatáért, jó munkavégzésre ösztönöznek bennünket!</p>
+      <h2>Sugestii</h2>
+      <p>Va multumim pentru orice sugestie, ne motivati sa ne facem treaba!</p>
     </div>
     <slider 
     animation="fade"
@@ -15,7 +15,7 @@
     </slider>
 
     <div class="arrow"></div>
-    <div class="myButton" @click="showOrder">Rendeljen most</div>
+    <div class="myButton" @click="showOrder">Comanda acum</div>
 
     <app-order @closeOrder="closeOrder" :active="active"></app-order>
   </div>

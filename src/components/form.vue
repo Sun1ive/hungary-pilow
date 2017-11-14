@@ -1,30 +1,30 @@
 <template>
   <form class="form" @submit.prevent="submit">
-    <h2>Töltse ki adatait</h2>
+    <h2>Completati datele dvs</h2>
     <div class="wrap">
       <img src="../assets/clock.svg" alt="clock">
-      <span>19 másodpercig tart</span>
+      <span>Dureaza 19 secunde</span>
     </div>
     <div class="field">
-      <label class="label">Név</label>
+      <label class="label">Nume</label>
       <div class="control">
         <input required v-model.lazy="userData.name" class="input" type="text" placeholder="Név">
       </div>
     </div>
     <div class="field">
-      <label class="label">Telefonszám</label>
+      <label class="label">Telefon</label>
       <div class="control">
         <input required v-model.lazy="userData.phone" class="input" type="text" placeholder="Telefonszám">
       </div>
     </div>
     <div class="field">
-      <label class="label">Helység</label>
+      <label class="label">Oras</label>
       <div class="control">
         <input required v-model.lazy="userData.city" class="input" type="text" placeholder="Helység">
       </div>
     </div>
-    <p>Menedszerünk már tárcsázza <br> az Ön telefonszámát</p>
-    <button class="myButton" type="submit">Küldés</button>
+    <p>Managerul nostru deja apeleaza numarul dvs</p>
+    <button class="myButton" type="submit">Trimite</button>
 
     <app-thanks @closeThanks="closeThanks" :isActive="isActive"></app-thanks>
   </form>

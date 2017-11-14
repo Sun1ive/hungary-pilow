@@ -1,36 +1,36 @@
 <template>
   <div class="work">
     <div class="wrapper">
-      <h2>Hogyan műkődik?</h2>
+      <h2>Cum functioneaza?</h2>
       <div class="Box" data-aos="fade-up">
         <div class="Number One">1</div>
         <img src="../assets/s1.png" alt="avatar">
-        <p>Ön megmondja mikor vehető fel a páciens.</p>
+        <p>Ne spuneti cand putem ridica pacientul.</p>
       </div>
       <div class="Box" data-aos="fade-right">
         <div class="Number">2</div>
         <img src="../assets/s2.png" alt="avatar">
-        <p>Mi összeálltunk egy útvonalat városában és az összes beteg párnácskát összegyűjtünk.</p>
+        <p>Noi stabilim un traseu prin oras si colectam pernutele bolnave.</p>
       </div>
       <div class="Box" data-aos="fade-left">
         <div class="Number">3</div>
         <img src="../assets/s3.png" alt="avatar">
-        <p>Eltávolítjuk a baktériumokat és a szennyeződéseket a párnákból.</p>
+        <p>Curatam penele de bacterii si impuritati.</p>
       </div>
       <div class="Box" data-aos="fade-down">
         <div class="Number">4</div>
         <img src="../assets/s4.png" alt="avatar">
-        <p>-Egy teljesen új és minőségi huzatba helyezzük a tiszta tollakat, és szükség esetén módosítást is vállalunk.</p>
+        <p>Punem un toc nou de calitate si daca este nevoie facem si alte modificari.</p>
       </div>
       <div class="Box" data-aos="fade-up">
         <div class="Number">5</div>
         <img src="../assets/s5.png" alt="avatar">
-        <p>Estig egy kifogástalanul tiszta párnát hozunk vissza.</p>
+        <p>Pina seara, va aducem o perna impecabil de curata.</p>
       </div>
       <div class="Box" data-aos="fade-right">
         <div class="Number">6</div>
         <img src="../assets/s6.png" alt="avatar">
-        <p>Segítünk egy éves párnatisztítási grafikát létrehozni.</p>
+        <p>Va ajutam sa creati un grafic de curatare al pernelor anual.</p>
       </div>
     </div>
   </div>

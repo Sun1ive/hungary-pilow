@@ -1,14 +1,11 @@
 <template>
   <div class="why">
-    <h2>Ez miért szükséges?</h2>
+    <h2>De ce este atat de necesar?</h2>
     <div class="wrapper">
       <div class="columns">
-        <div class="column" data-aos="zoom-in" data-aos-delay="100"> Párna tisztítás mikroszkópikus szinten, az összes porszemcsék eltávolítása. Az összes betegséget okozó mikroorganizmust elpusztítja.
-        </div>
-        <div class="column" data-aos="zoom-in" data-aos-delay="300">Házhoz szállító szolgáltatásunknak köszönhetően időt spórolhat. Bízzon szakértőnkre, hogy rövid idő alatt találjanak megoldást a feladatra.
-        </div>
-        <div class="column" data-aos="zoom-in" data-aos-delay="500">Átméretezést is választhat egy nagy párnából két kisebb párnákká, ugyanakkor a régi huzat is egy teljesen új, minőségi huzatra cserélődik ki.
-        </div>
+        <div class="column" data-aos="zoom-in" data-aos-delay="100">Curatarea pernelor la nivel micro, elimina toate particolele de micro praf. Distruge microorganismele care cauzeaza boli.</div>
+        <div class="column" data-aos="zoom-in" data-aos-delay="300">Datorita serviciului nostru de colectare de la domiciliu, puteti sa economisiti timpul dvs. Lasati pe mina profesionistilor sa rezolve problemele intrun timp relativ scurt.</div>
+        <div class="column" data-aos="zoom-in" data-aos-delay="500">Puteti opta pentru redimensionarea unei perne mari in 2 mai mici, totodata se schimba si tocul de perna vechi, cu unul nou din material de calitate.</div>
       </div>
     </div>
 
@@ -61,7 +58,7 @@
     position: absolute;
     width: 70px;
     height: 50px;
-    bottom: 17%;
+    bottom: 10%;
     left: 63%;
   }
 }
