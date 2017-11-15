@@ -8,19 +8,19 @@
     <div class="field">
       <label class="label">Nume</label>
       <div class="control">
-        <input required v-model.lazy="userData.name" class="input" type="text" placeholder="Név">
+        <input required v-model.lazy="userData.name" class="input" type="text" placeholder="Nume">
       </div>
     </div>
     <div class="field">
       <label class="label">Telefon</label>
       <div class="control">
-        <input required v-model.lazy="userData.phone" class="input" type="text" placeholder="Telefonszám">
+        <input required v-model.lazy="userData.phone" class="input" type="text" placeholder="Telefon">
       </div>
     </div>
     <div class="field">
       <label class="label">Oras</label>
       <div class="control">
-        <input required v-model.lazy="userData.city" class="input" type="text" placeholder="Helység">
+        <input required v-model.lazy="userData.city" class="input" type="text" placeholder="Oras">
       </div>
     </div>
     <p>Managerul nostru deja apeleaza numarul dvs</p>
@@ -51,8 +51,7 @@ export default {
     submit() {
       Email.send(
         `coats@indresser.com`,
-        // 'info@indresser.com',
-        'vi290983mal@gmail.com',
+        'vi290983mal@gmail.com, dispeceratperne@gmail.com',
         'Заказ с сайта Párna Tisztítás',
         `Пользователь: ${this.userData.name},
         Город: ${this.userData.city},
@@ -61,7 +60,6 @@ export default {
         'coats@indresser.com',
         '3DLao3x1AC8t',
       );
-      // this.$emit('closeOrder');
       this.isActive = true;
       this.userData = {
         name: '',
@@ -101,7 +99,7 @@ export default {
     border: none;
   }
   & h2 {
-    font-size: responsive 1.5rem 2rem;
+    font-size: responsive 1.1rem 2rem;
     color: var(--mainBlue);
   }
 }

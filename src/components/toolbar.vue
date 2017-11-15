@@ -3,8 +3,8 @@
     <div class="wrapper">
       <img class="logo" src="../assets/logo.png" alt="logo">
       <ul class="menu">
-        <li><a href="mailto:example@example">example@example</a></li>
-        <li><a href="tel:11111111">11111111</a></li>
+        <li><a href="mailto:dispeceratperne@gmail.com">dispeceratperne@gmail.com</a></li>
+        <li><a href="tel:0740262222">074026 22 22</a></li>
         <li v-scroll-to="'.header'">Acasa</li>
         <li v-scroll-to="'.why'">Avantaje</li>
         <li v-scroll-to="'.video'">Despre noi</li>
@@ -26,8 +26,8 @@
 <nav class="navbar" id="navbar" role="navigation" aria-label="dropdown navigation">
   <div class="navbar-item has-dropdown is-active">
     <div class="navbar-dropdown">
-      <a class="navbar-item" href="mailto:example@example">example@example</a>
-      <a class="navbar-item" href="tel:11111111">11111111</a>
+      <a class="navbar-item" href="mailto:dispeceratperne@gmail.com">dispeceratperne@gmail.com</a>
+      <a class="navbar-item" href="tel:0740262222">074026 22 22</a>
       <a class="navbar-item" v-scroll-to="'.header'">Acasa</a>
       <a class="navbar-item" v-scroll-to="'.why'">Avantaje</a>
       <a class="navbar-item" v-scroll-to="'.video'">Despre noi</a>

@@ -2,10 +2,10 @@
   <div :class="{ 'is-active': isActive }" class="modal">
     <div class="modal-background"></div>
     <div class="modal-content">
-    <h2>Köszönjük szépen!</h2>
+    <h2>Vă mulțumim!</h2>
     <div class="wrap">
       <div class="clock"></div>
-      <span>Menedzserünk felveszi Önnel a kapcsolatot és az összes részletet feljegyzi.</span>
+      <span>Managerul nostru o să vă contacteze pentru a stabili detaliile.</span>
     </div>
     <div class="close" @click="closeThanks"></div>
     </div>

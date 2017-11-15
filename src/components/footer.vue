@@ -2,17 +2,14 @@
   <footer>
     <div class="footer">
       <ul class="socials">
-        <li><a href="https://www.facebook.com/ParnaTisztitas/" target="_blank">
+        <li><a href="https://www.facebook.com/Curatarea.Pernelor.HTT/" target="_blank">
           <img src="../assets/facebook.svg" alt="facebook"></a>
         </li>
         <li>
-          <a href="tel:‎06307088781">
+          <a href="tel:0740262222">
             <img src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/phone-32.png" alt="telephone">
           </a>
         </li>
-        <!-- <li><a href="#">
-          <img src="../assets/instagram.svg" alt="isntagram"></a>
-        </li> -->
       </ul>
       <div class="up" @click="scrollTop"></div>
     </div>
