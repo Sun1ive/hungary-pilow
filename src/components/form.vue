@@ -50,15 +50,15 @@ export default {
   methods: {
     submit() {
       Email.send(
-        `coats@indresser.com`,
-        'vi290983mal@gmail.com, dispeceratperne@gmail.com',
-        'Заказ с сайта Párna Tisztítás',
-        `Пользователь: ${this.userData.name},
-        Город: ${this.userData.city},
-        Телефон: ${this.userData.phone}`,
+        `t5@httforyou.ro`,
+        'vi290983mal@gmail.com, dispeceratperne@gmail.com, ciobanu_andrew@yahoo.com',
+        'Comandă de pe site Health Through Tradition',
+        `Nume: ${this.userData.name},
+        Oraș: ${this.userData.city},
+        Telefon: ${this.userData.phone}`,
         'mail.adm.tools',
-        'coats@indresser.com',
-        '3DLao3x1AC8t',
+        't5@httforyou.ro',
+        'pSe4b35c6NFJ',
       );
       this.isActive = true;
       this.userData = {

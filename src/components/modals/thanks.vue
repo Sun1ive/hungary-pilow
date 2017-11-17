@@ -45,7 +45,7 @@ export default {
   height: 70px;
 }
 h2 {
-  font-size: responsive 2rem 3rem;
+  font-size: responsive 1.3rem 2rem;
   color: var(--mainBlue);
 }
 .close {
