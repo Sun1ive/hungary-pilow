@@ -1,36 +1,36 @@
 <template>
   <div class="work">
     <div class="wrapper">
-      <h2>Cum functioneaza?</h2>
+      <h2>Cum funcționează?</h2>
       <div class="Box" data-aos="fade-up">
         <div class="Number One">1</div>
         <img src="../assets/s1.png" alt="avatar">
-        <p>Ne spuneti cand putem ridica pacientul.</p>
+        <p>Stabilim împreună data și ora colectării pernelor de la domiciliu dumneavoastră.</p>
       </div>
       <div class="Box" data-aos="fade-right">
         <div class="Number">2</div>
         <img src="../assets/s2.png" alt="avatar">
-        <p>Noi stabilim un traseu prin oras si colectam pernutele bolnave.</p>
+        <p>Noi stabilim traseul prin oraș și colectăm pernuțele bolnave.</p>
       </div>
       <div class="Box" data-aos="fade-left">
         <div class="Number">3</div>
         <img src="../assets/s3.png" alt="avatar">
-        <p>Curatam penele de bacterii si impuritati.</p>
+        <p>Curățăm, aspirăm și tratăm penele cu o lampă UV iar bacteriile și impuritățile vor fi eliminate.</p>
       </div>
       <div class="Box" data-aos="fade-down">
         <div class="Number">4</div>
         <img src="../assets/s4.png" alt="avatar">
-        <p>Punem un toc nou de calitate si daca este nevoie facem si alte modificari.</p>
+        <p>Vă schimbăm dosul vechi cu unul nou de calitate germană iar dacă este necesar vă putem face și alte modificări.</p>
       </div>
       <div class="Box" data-aos="fade-up">
         <div class="Number">5</div>
         <img src="../assets/s5.png" alt="avatar">
-        <p>Pina seara, va aducem o perna impecabil de curata.</p>
+        <p>Până seara vă aducem o pernă dezinfectată și impecabilă.</p>
       </div>
       <div class="Box" data-aos="fade-right">
         <div class="Number">6</div>
         <img src="../assets/s6.png" alt="avatar">
-        <p>Va ajutam sa creati un grafic de curatare al pernelor anual.</p>
+        <p>Vă ajutăm să creeați un grafic de curățare al pernelor anual.</p>
       </div>
     </div>
   </div>

@@ -1,11 +1,11 @@
 <template>
   <div class="why">
-    <h2>De ce este atat de necesar?</h2>
+    <h2>De ce este atât de necesar?</h2>
     <div class="wrapper">
       <div class="columns">
-        <div class="column" data-aos="zoom-in" data-aos-delay="100">Curatarea pernelor la nivel micro, elimina toate particolele de micro praf. Distruge microorganismele care cauzeaza boli.</div>
-        <div class="column" data-aos="zoom-in" data-aos-delay="300">Datorita serviciului nostru de colectare de la domiciliu, puteti sa economisiti timpul dvs. Lasati pe mina profesionistilor sa rezolve problemele intrun timp relativ scurt.</div>
-        <div class="column" data-aos="zoom-in" data-aos-delay="500">Puteti opta pentru redimensionarea unei perne mari in 2 mai mici, totodata se schimba si tocul de perna vechi, cu unul nou din material de calitate.</div>
+        <div class="column" data-aos="zoom-in" data-aos-delay="100">Curățarea pernelor la nivel micro  elimină toate particulele de praf, de asemenea distruge microorganismele ce pot determina apariția anumitor boli.</div>
+        <div class="column" data-aos="zoom-in" data-aos-delay="300">Timpul dumneavoastră este prețios, iar datorită serviciului nostru de colectare a pernelor de la domiciliu, puteți economisi timp! Lăsați pernele pe mâna profesioniștilor și acestea vor fi ca și noi într-un timp foarte scurt!</div>
+        <div class="column" data-aos="zoom-in" data-aos-delay="500">Vă putem redimensiona pernele  în funcție de dimensiunile noastre standard, de asemenea dosul dumneavoastră vechi va fi înlocuit cu unul nou, de calitate germană, bumbac 100% prin care nu o să vă mai iasă fulgii.</div>
       </div>
     </div>
 
@@ -34,7 +34,7 @@
   color: #fff;
   overflow: hidden;
   & h2 {
-    font-size: responsive 2rem 4rem;
+    font-size: responsive 2rem 3.3rem;
     max-width: 700px;
     text-align: center;
     line-height: 1.1;

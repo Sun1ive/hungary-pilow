@@ -5,7 +5,7 @@
         <div class="flex">
           <h1>Perna ta este în pericol!</h1>
           <img class="pilow" src="../assets/p1.png" alt="pilow">
-          <p>Pernele, după o lungă întrebuințare adună în ele praf si creează un mediu favorabil pentru dezvoltarea multor microorganisme și bacterii care dăunează sănătății dumneavoastră, așadar somnul  devine o problemă. Dacă doriți ca somnul să devină mai liniștit și lipsit de griji iar sănătatea celor dragi este importantă pentru dumneavoastră, NU ezitați să apelați la serviciul nostru de curățare a pernelor</p>
+          <p align="justify">Pernele, după o lungă întrebuințare adună în ele praf si creează un mediu favorabil pentru dezvoltarea multor microorganisme și bacterii care dăunează sănătății dumneavoastră, așadar somnul  devine o problemă. Dacă doriți ca somnul să devină mai liniștit și lipsit de griji iar sănătatea celor dragi este importantă pentru dumneavoastră, NU ezitați să apelați la serviciul nostru de curățare a pernelor</p>
           <div class="myButton" @click="showOrder">Comanda acum</div>
         </div>
       </div>
@@ -61,7 +61,7 @@ header {
     }
   }
   & h1 {
-    font-size: responsive 2rem 4rem;
+    font-size: responsive 2rem 3.4rem;
     line-height: 1.06;
     color: var(--mainBlue);
     background-color: #fff;
@@ -73,7 +73,7 @@ header {
     font-family: Helvetica, Arial, sans-serif;
     letter-spacing: 0.3px;
     font-size: 1rem;
-    width: 65%;
+    width: 60%;
     margin: 2rem 0 2rem 1rem;
     position: relative;
     z-index: 2;

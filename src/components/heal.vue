@@ -1,11 +1,11 @@
 <template>
   <div class="heal">
     <div class="wrapper">
-      <h2>Destul cu noptile nedormite! Vindecati-va perna!</h2>
+      <h2>Destul cu nopțile nedormite! Vindecați-vă perna!</h2>
       <div class="columns">
-        <div class="column">Profesionalismul angajatilor si servicii suplimentare</div>
-        <div class="column">Punctualitatea curierilor in colectarea si livrarea la timp a pernelor.</div>
-        <div class="column">Curatare de mizerie, praf si microorganisme</div>
+        <div class="column">Profesionalismul angajaților și servicii suplimentare</div>
+        <div class="column">Punctualitatea curierilor în colectarea și livrarea pernelor la timp.</div>
+        <div class="column">Curățăre, aspirare și eliminare de bacterii și microorganisme.</div>
       </div>
     </div>
     <img data-aos="fade-in" data-aos-duration="1000" class="rightPilow" src="../assets/p5.png" alt="pillow">

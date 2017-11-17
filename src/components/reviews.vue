@@ -2,7 +2,7 @@
   <div class="reviews">
     <div class="wrapper">
       <h2>Sugestii</h2>
-      <p>Va multumim pentru orice sugestie, ne motivati sa ne facem treaba!</p>
+      <p>Vă mulțumim pentru orice sugestie, doar dumneavoastră ne motivați să ne facem treaba!</p>
     </div>
     <slider 
     animation="fade"
