@@ -20,7 +20,7 @@
       <div class="Box" data-aos="fade-down">
         <div class="Number">4</div>
         <img src="../assets/s4.png" alt="avatar">
-        <p>Vă schimbăm dosul vechi cu unul nou de calitate germană iar dacă este necesar vă putem face și alte modificări.</p>
+        <p>Vă schimbăm dosul vechi cu unul nou de calitate germană, iar dacă este necesar vă putem face și alte modificări.</p>
       </div>
       <div class="Box" data-aos="fade-up">
         <div class="Number">5</div>
@@ -30,7 +30,7 @@
       <div class="Box" data-aos="fade-right">
         <div class="Number">6</div>
         <img src="../assets/s6.png" alt="avatar">
-        <p>Vă ajutăm să creeați un grafic de curățare al pernelor anual.</p>
+        <p>Vă ajutăm să creați un grafic de curățare al pernelor anual.</p>
       </div>
     </div>
   </div>

@@ -4,7 +4,8 @@
       <img class="logo" src="../assets/logo.png" alt="logo">
       <ul class="menu">
         <li><a href="mailto:dispeceratperne@gmail.com">dispeceratperne@gmail.com</a></li>
-        <li><a href="tel:0740262222">074026 22 22</a></li>
+        <li><a class="desktop">074026 22 22</a></li>
+        <li><a class="tel" href="tel:0740262222">074026 22 22</a></li>
         <li v-scroll-to="'.header'">Acasa</li>
         <li v-scroll-to="'.why'">Avantaje</li>
         <li v-scroll-to="'.video'">Despre noi</li>
@@ -123,7 +124,9 @@ export default {
 .logo_low {
   display: none;
 }
-
+.tel {
+  display: none;
+}
 .navbar-burger {
   margin: 0;
   display: none;
@@ -144,6 +147,12 @@ export default {
     display: none;
   }
   .logo {
+    display: none;
+  }
+  .tel {
+    display: block;
+  }
+  .desktop {
     display: none;
   }
 }
