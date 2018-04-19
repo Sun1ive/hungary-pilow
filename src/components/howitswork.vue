@@ -27,18 +27,13 @@
         <img src="../assets/s5.png" alt="avatar">
         <p>Până seara vă aducem o pernă dezinfectată și impecabilă.</p>
       </div>
-      <div class="Box" data-aos="fade-right">
-        <div class="Number">6</div>
-        <img src="../assets/s6.png" alt="avatar">
-        <p>Vă ajutăm să creați un grafic de curățare al pernelor anual.</p>
-      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
 .work {
-  min-height: 1400px;
+  min-height: 1350px;
   background-image: url('../assets/22.jpg');
 }
 .wrapper {
@@ -62,6 +57,7 @@
     color: var(--para);
     font-family: Helvetica, Arial, sans-serif;
     line-height: 2rem;
+    margin: 1rem 0;
     position: relative;
     & p {
       margin-left: 2rem;
@@ -127,9 +123,6 @@
     font-size: 15rem;
     bottom: 50%;
     left: 5%;
-  }
-  .One {
-    left: -10%;
   }
 }
 </style>

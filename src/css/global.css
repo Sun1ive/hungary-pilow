@@ -22,11 +22,11 @@ h2 {
   min-height: 28px;
   font-family: Helvetica, sans-serif;
   font-size: 1rem;
-  color: #FFF;
+  color: #fff;
   border-radius: 14px;
   background-color: #ff482a;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.11);
-  transition: .4s ease;
+  transition: 0.4s ease;
   cursor: pointer;
 }
 .myButton:hover {
@@ -72,12 +72,26 @@ ul {
   z-index: 10 !important;
 }
 
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  transform: scale(1.1);
+}
+
 @keyframes arrow {
   from {
-    opacity: .2;
-    transform: translate(-50%,-60%)
-  } to {
+    opacity: 0.2;
+    transform: translate(-50%, -60%);
+  }
+  to {
     opacity: 1;
-    transform: translate(-50%, 0%)
+    transform: translate(-50%, 0%);
   }
 }

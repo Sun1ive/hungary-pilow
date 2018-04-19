@@ -11,7 +11,9 @@
       </div>
     </div>
 
-    <app-order @closeOrder="closeOrder" :active="active"></app-order>
+    <app-order
+      @closeOrder="closeOrder"
+      :active="active" />
   </header>
 </template>
 

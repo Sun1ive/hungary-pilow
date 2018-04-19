@@ -1,11 +1,13 @@
 <template>
-  <div ref="modal" id="order" :class="{ 'is-active': active }" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-content">
-      <app-form @closeOrder="closeOrder"></app-form>
-    <div class="close" @click="closeOrder"></div>
+  <transition name="modal" mode="out-in">
+    <div ref="modal" id="order" :class="{ 'is-active': active }" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <app-form @closeOrder="closeOrder"></app-form>
+      <div class="close" @click="closeOrder"></div>
+      </div>
     </div>
-  </div>
+  </transition>
 </template>
 
 <script>
